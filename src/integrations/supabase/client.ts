@@ -37,11 +37,15 @@ function createSupabaseClient() {
     import.meta.env["VITE_SUPABASE_PUBLISHABLE_KEY"] || process.env["SUPABASE_PUBLISHABLE_KEY"];
 
   if (!SUPABASE_URL || !SUPABASE_PUBLISHABLE_KEY) {
+    // Name the VITE_ variables here: they are the ones the browser bundle needs, and
+    // they are read at build time, so a deployment must be rebuilt after adding them.
     const missing = [
-      ...(!SUPABASE_URL ? ["SUPABASE_URL"] : []),
-      ...(!SUPABASE_PUBLISHABLE_KEY ? ["SUPABASE_PUBLISHABLE_KEY"] : []),
+      ...(!SUPABASE_URL ? ["VITE_SUPABASE_URL"] : []),
+      ...(!SUPABASE_PUBLISHABLE_KEY ? ["VITE_SUPABASE_PUBLISHABLE_KEY"] : []),
     ];
-    const message = `Missing Supabase environment variable(s): ${missing.join(", ")}.`;
+    const message =
+      `Missing Supabase environment variable(s): ${missing.join(", ")}. ` +
+      `Set them in your hosting provider's environment settings and redeploy (see README).`;
     console.error(`[Supabase] ${message}`);
     throw new Error(message);
   }

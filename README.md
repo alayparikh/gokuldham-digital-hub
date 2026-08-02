@@ -36,14 +36,14 @@ npm run dev            # http://localhost:8080
 Those values are inlined into the browser bundle at build time, and the server falls
 back to them when the unprefixed copies are absent.
 
-| Variable                        | Required | Used by                                                     |
-| ------------------------------- | -------- | ----------------------------------------------------------- |
-| `VITE_SUPABASE_URL`             | yes      | browser, and SSR fallback                                   |
-| `VITE_SUPABASE_PUBLISHABLE_KEY` | yes      | browser, and SSR fallback                                   |
-| `VITE_SUPABASE_PROJECT_ID`      | no       | browser                                                     |
-| `SUPABASE_URL`                  | no       | SSR / server fns; overrides the `VITE_` value               |
-| `SUPABASE_PUBLISHABLE_KEY`      | no       | SSR / server fns; overrides the `VITE_` value               |
-| `SUPABASE_SERVICE_ROLE_KEY`     | no       | server only — bypasses RLS; nothing uses it today           |
+| Variable                        | Required | Used by                                           |
+| ------------------------------- | -------- | ------------------------------------------------- |
+| `VITE_SUPABASE_URL`             | yes      | browser, and SSR fallback                         |
+| `VITE_SUPABASE_PUBLISHABLE_KEY` | yes      | browser, and SSR fallback                         |
+| `VITE_SUPABASE_PROJECT_ID`      | no       | browser                                           |
+| `SUPABASE_URL`                  | no       | SSR / server fns; overrides the `VITE_` value     |
+| `SUPABASE_PUBLISHABLE_KEY`      | no       | SSR / server fns; overrides the `VITE_` value     |
+| `SUPABASE_SERVICE_ROLE_KEY`     | no       | server only — bypasses RLS; nothing uses it today |
 
 The publishable key is safe to expose to the browser. The service role key is not:
 set it only as a Vercel environment variable, never in a `VITE_*` variable.

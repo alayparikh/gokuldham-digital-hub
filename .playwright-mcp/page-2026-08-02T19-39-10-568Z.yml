@@ -1,0 +1,271 @@
+- generic [active] [ref=f21e1]:
+  - generic [ref=f21e2]:
+    - banner [ref=f21e3]:
+      - generic [ref=f21e4]:
+        - link "ॐ Gokuldham Haveli Atlanta, GA" [ref=f21e5] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f21e6]: ॐ
+          - generic [ref=f21e8]:
+            - generic [ref=f21e9]: Gokuldham Haveli
+            - generic [ref=f21e10]: Atlanta, GA
+        - navigation [ref=f21e11]:
+          - link "Home" [ref=f21e12] [cursor=pointer]:
+            - /url: /
+          - link "About Us" [ref=f21e13] [cursor=pointer]:
+            - /url: /about
+          - link "Calendar" [ref=f21e14] [cursor=pointer]:
+            - /url: /events
+          - link "Live" [ref=f21e15] [cursor=pointer]:
+            - /url: /live
+          - link "Bhajans" [ref=f21e16] [cursor=pointer]:
+            - /url: /bhajans
+          - link "Gallery" [ref=f21e17] [cursor=pointer]:
+            - /url: /gallery
+          - link "Blog" [ref=f21e18] [cursor=pointer]:
+            - /url: /blog
+          - link "Contact Us" [ref=f21e19] [cursor=pointer]:
+            - /url: /contact
+        - link "Donate" [ref=f21e21] [cursor=pointer]:
+          - /url: /donate
+    - main [ref=f21e24]:
+      - generic [ref=f21e25]:
+        - generic [ref=f21e26]:
+          - generic [ref=f21e27]:
+            - img "Darshan at Gokuldham Haveli" [ref=f21e28]
+            - img "Darshan at Gokuldham Haveli" [ref=f21e29]
+            - img "Darshan at Gokuldham Haveli" [ref=f21e30]
+            - img "Darshan at Gokuldham Haveli" [ref=f21e31]
+            - img "Darshan at Gokuldham Haveli" [ref=f21e32]
+            - heading "મારું ગોકુલધામ, તારું ગોકુલધામ આપણું ગોકુલધામ" [level=1] [ref=f21e34]
+          - generic [ref=f21e35]:
+            - button "Show slide 1" [ref=f21e36]
+            - button "Show slide 2" [ref=f21e37]
+            - button "Show slide 3" [ref=f21e38]
+            - button "Show slide 4" [ref=f21e39]
+            - button "Show slide 5" [ref=f21e40]
+        - generic [ref=f21e41]:
+          - generic [ref=f21e42]:
+            - heading "Daily Darshan Time" [level=2] [ref=f21e43]
+            - paragraph [ref=f21e44]: ATLANTA, GA
+          - generic [ref=f21e45]:
+            - generic [ref=f21e46]: August 2026
+            - generic [ref=f21e48]:
+              - button "2 Sun" [ref=f21e49]:
+                - generic [ref=f21e50]: "2"
+                - generic [ref=f21e51]: Sun
+              - button "3 Mon" [ref=f21e52]:
+                - generic [ref=f21e53]: "3"
+                - generic [ref=f21e54]: Mon
+              - button "4 Tue" [ref=f21e55]:
+                - generic [ref=f21e56]: "4"
+                - generic [ref=f21e57]: Tue
+              - button "5 Wed" [ref=f21e58]:
+                - generic [ref=f21e59]: "5"
+                - generic [ref=f21e60]: Wed
+              - button "6 Thu" [ref=f21e61]:
+                - generic [ref=f21e62]: "6"
+                - generic [ref=f21e63]: Thu
+              - button "7 Fri" [ref=f21e64]:
+                - generic [ref=f21e65]: "7"
+                - generic [ref=f21e66]: Fri
+              - button "8 Sat" [ref=f21e67]:
+                - generic [ref=f21e68]: "8"
+                - generic [ref=f21e69]: Sat
+            - list [ref=f21e70]:
+              - listitem [ref=f21e71]:
+                - generic [ref=f21e79]: 7.30am - 8.30am —
+                - generic [ref=f21e80]: Mangla
+              - listitem [ref=f21e81]:
+                - generic [ref=f21e88]: 8.15am —
+                - generic [ref=f21e89]: Mangla Aarti
+              - listitem [ref=f21e90]:
+                - generic [ref=f21e94]: 10.30am - 10.50am —
+                - generic [ref=f21e95]: Shringar (Sat-Sun)
+              - listitem [ref=f21e96]:
+                - generic [ref=f21e103]: 11.30am - 1.00pm —
+                - generic [ref=f21e104]: Rajbhog Darshan
+              - listitem [ref=f21e105]:
+                - generic [ref=f21e112]: 12.00pm —
+                - generic [ref=f21e113]: Rajbhog Aarti
+              - listitem [ref=f21e114]:
+                - generic [ref=f21e118]: 5.00pm - 8.30pm —
+                - generic [ref=f21e119]: MahaRaas
+              - listitem [ref=f21e120]:
+                - generic [ref=f21e124]: 5.30pm - 7.30pm —
+                - generic [ref=f21e125]: Sandhya/Shayan
+              - listitem [ref=f21e126]:
+                - generic [ref=f21e133]: 7.30pm —
+                - generic [ref=f21e134]: Sandhya/Shayan Aarti
+              - listitem [ref=f21e135]:
+                - generic [ref=f21e139]: 6.35pm —
+                - generic [ref=f21e140]: Yamunaji Aarti (Sunday Only)
+          - generic [ref=f21e141]:
+            - heading "8/2/2026 Sponsors" [level=3] [ref=f21e142]
+            - generic [ref=f21e143]:
+              - paragraph [ref=f21e144]: "Vikram Samvat: 2083"
+              - paragraph [ref=f21e145]: "Gujarati Month: અષાઢ · Paksh: વદ · Tithi: ચૌથ"
+              - paragraph [ref=f21e146]: "Utsav: Shri Gokulnathji Patotsav"
+            - generic [ref=f21e147]:
+              - generic [ref=f21e148]:
+                - heading "Mangal Bhog" [level=4] [ref=f21e149]
+                - list [ref=f21e150]:
+                  - listitem [ref=f21e151]: Sanjanwala Family
+              - generic [ref=f21e152]:
+                - heading "Pan Ni Seva" [level=4] [ref=f21e153]
+                - list [ref=f21e154]:
+                  - listitem [ref=f21e155]: Sanjanwala Family
+              - generic [ref=f21e156]:
+                - heading "Doodh Ni Seva" [level=4] [ref=f21e157]
+                - list [ref=f21e158]:
+                  - listitem [ref=f21e159]: Chandraprabha Singh
+              - generic [ref=f21e160]:
+                - heading "Rajbhog" [level=4] [ref=f21e161]
+                - list [ref=f21e162]:
+                  - listitem [ref=f21e163]: Hansabahen Mansukhbhai Patel
+                  - listitem [ref=f21e164]: Drashti Rajeshbhai Dodiya
+              - generic [ref=f21e165]:
+                - heading "Shree Yamunaji Aarti Manorathi" [level=4] [ref=f21e166]
+                - list [ref=f21e167]:
+                  - listitem [ref=f21e168]: Prakash Jivanlal Shah
+                  - listitem [ref=f21e169]: Vipul & Latta Pankhaniya
+                  - listitem [ref=f21e170]: Shah Sharmilya Pranay & Ganesh Rai Family
+      - generic [ref=f21e171]:
+        - generic [ref=f21e172]:
+          - paragraph [ref=f21e173]: Calendar
+          - heading "Upcoming Events" [level=2] [ref=f21e174]
+          - generic [ref=f21e175]: ✦
+          - paragraph [ref=f21e179]: Celebrate traditions and join us in upcoming festivals, satsangs, and cultural gatherings — moments of joy, devotion, and togetherness.
+        - generic [ref=f21e180]:
+          - link [ref=f21e181] [cursor=pointer]:
+            - /url: /events/gokuldham-utsav
+            - img "Gokuldham Haveli - List of Utsav's / Events in the year 2026" [ref=f21e182]
+            - generic [ref=f21e183]:
+              - paragraph [ref=f21e184]: Aug 12, 2026
+              - heading "Gokuldham Haveli - List of Utsav's / Events in the year 2026" [level=3] [ref=f21e187]
+              - paragraph [ref=f21e188]: The full calendar of utsavs celebrated at Gokuldham Haveli through 2026.
+              - generic [ref=f21e189]: Read More
+          - link [ref=f21e192] [cursor=pointer]:
+            - /url: /events/janmashtami
+            - img "Shri Krishna Janmashtami" [ref=f21e193]
+            - generic [ref=f21e194]:
+              - paragraph [ref=f21e195]: Sep 1, 2026
+              - heading "Shri Krishna Janmashtami" [level=3] [ref=f21e198]
+              - paragraph [ref=f21e199]: Midnight darshan, jhulan and mahaprasad celebrating the birth of Shri Krishna.
+              - generic [ref=f21e200]: Read More
+          - link [ref=f21e203] [cursor=pointer]:
+            - /url: /events/annakut
+            - img "Annakut Mahotsav" [ref=f21e204]
+            - generic [ref=f21e205]:
+              - paragraph [ref=f21e206]: Oct 31, 2026
+              - heading "Annakut Mahotsav" [level=3] [ref=f21e209]
+              - paragraph [ref=f21e210]: The grand offering of mountains of prasad to Shri Gokulnathji.
+              - generic [ref=f21e211]: Read More
+        - link "All Events" [ref=f21e215] [cursor=pointer]:
+          - /url: /events
+      - generic [ref=f21e219]:
+        - generic [ref=f21e220]:
+          - paragraph [ref=f21e221]: Seva
+          - heading "Build Our Future" [level=2] [ref=f21e222]
+          - generic [ref=f21e223]: ✦
+          - paragraph [ref=f21e227]: Every contribution, large or small, keeps our traditions alive and thriving. Donate today to be part of this sacred journey.
+        - generic [ref=f21e228]:
+          - link [ref=f21e229] [cursor=pointer]:
+            - /url: /donate?tab=donation&category=general-donation
+            - img "General Donation" [ref=f21e230]
+            - generic [ref=f21e231]:
+              - heading "General Donation" [level=3] [ref=f21e232]
+              - paragraph [ref=f21e233]: Your contribution helps preserve the spiritual and community mission of Gokuldham Temple.
+          - link [ref=f21e234] [cursor=pointer]:
+            - /url: /donate?tab=seva&category=whole-day-seva
+            - img "Whole Day Seva + Sevaki" [ref=f21e235]
+            - generic [ref=f21e236]:
+              - heading "Whole Day Seva + Sevaki" [level=3] [ref=f21e237]
+              - paragraph [ref=f21e238]: Contribute to Nitya Seva and Annakoot celebrations, ensuring daily offerings are performed with devotion.
+          - link [ref=f21e239] [cursor=pointer]:
+            - /url: /donate?tab=donation&category=support-programs
+            - img "Support Programs" [ref=f21e240]
+            - generic [ref=f21e241]:
+              - heading "Support Programs" [level=3] [ref=f21e242]
+              - paragraph [ref=f21e243]: Help fund educational, youth, and social initiatives that carry our values forward.
+          - link [ref=f21e244] [cursor=pointer]:
+            - /url: /donate?tab=donation&category=haveli-building
+            - img "Haveli Building" [ref=f21e245]
+            - generic [ref=f21e246]:
+              - heading "Haveli Building" [level=3] [ref=f21e247]
+              - paragraph [ref=f21e248]: Support the construction of essential spaces like the Haveli, Prasad Ghar, and ritual areas.
+        - link "Donate" [ref=f21e250] [cursor=pointer]:
+          - /url: /donate
+      - generic [ref=f21e251]:
+        - generic [ref=f21e252]:
+          - paragraph [ref=f21e253]: Blog
+          - heading "Stories of Gokuldham" [level=2] [ref=f21e254]
+          - generic [ref=f21e255]: ✦
+          - paragraph [ref=f21e259]: Stay updated with inspiring discourses, cultural highlights, and moments of devotion from our community.
+        - generic [ref=f21e260]:
+          - link [ref=f21e261] [cursor=pointer]:
+            - /url: /blog/philosophy
+            - img "શ્રીમદ્ વલ્લભાચાર્યજીનો દાર્શનિક સિદ્ધાંત – શુદ્ધાદ્વૈત બ્રહ્મવાદ" [ref=f21e262]
+            - generic [ref=f21e263]:
+              - heading "શ્રીમદ્ વલ્લભાચાર્યજીનો દાર્શનિક સિદ્ધાંત – શુદ્ધાદ્વૈત બ્રહ્મવાદ" [level=3] [ref=f21e264]
+              - paragraph [ref=f21e265]: શ્રીમદ્ વલ્લભાચાર્ય મહાપ્રભુજી દ્વારા પ્રતિપાદિત દાર્શનિક સિદ્ધાંત “શુદ્ધાદ્વૈત બ્રહ્મવાદ” તરીકે પ્રસિદ્ધ છે.
+          - link [ref=f21e266] [cursor=pointer]:
+            - /url: /blog/shree-yamunaji
+            - img "શ્રી યમુનાજી – ભક્તિની પ્રવાહિની" [ref=f21e267]
+            - generic [ref=f21e268]:
+              - heading "શ્રી યમુનાજી – ભક્તિની પ્રવાહિની" [level=3] [ref=f21e269]
+              - paragraph [ref=f21e270]: પુષ્ટિમાર્ગમાં શ્રી યમુનાજીનું સ્થાન અને તેમની કૃપાનું મહત્વ.
+          - link [ref=f21e271] [cursor=pointer]:
+            - /url: /blog/shrivallabhmahaprabhuji
+            - img "શ્રી વલ્લભાચાર્ય મહાપ્રભુજી" [ref=f21e272]
+            - generic [ref=f21e273]:
+              - heading "શ્રી વલ્લભાચાર્ય મહાપ્રભુજી" [level=3] [ref=f21e274]
+              - paragraph [ref=f21e275]: પુષ્ટિમાર્ગના સંસ્થાપક શ્રી વલ્લભાચાર્યજીનું જીવન અને સંદેશ.
+        - link "View All" [ref=f21e277] [cursor=pointer]:
+          - /url: /blog
+      - generic [ref=f21e279]:
+        - img "Gokuldham Haveli" [ref=f21e280]
+        - generic [ref=f21e281]:
+          - generic [ref=f21e282]:
+            - paragraph [ref=f21e283]: Our Story
+            - heading "About Gokuldham" [level=2] [ref=f21e284]
+            - generic [ref=f21e285]: ✦
+          - paragraph [ref=f21e289]: Gokuldham Haveli is a Pushtimarg Vaishnav temple in Atlanta, Georgia, dedicated to the seva of Shri Gokulnathji. Founded by devotees who wished to carry the traditions of Shrimad Vallabhacharya Mahaprabhuji to the American South, the Haveli is a home for daily darshan, utsav celebration, satsang and community service.
+          - link "Learn More" [ref=f21e290] [cursor=pointer]:
+            - /url: /about
+    - contentinfo [ref=f21e293]:
+      - generic [ref=f21e294]:
+        - generic [ref=f21e295]:
+          - heading "Gokuldham Haveli" [level=3] [ref=f21e296]
+          - paragraph [ref=f21e297]: મારું ગોકુલધામ, તારું ગોકુલધામ આપણું ગોકુલધામ
+          - paragraph [ref=f21e298]: A Pushtimarg Vaishnav haveli in Atlanta, Georgia devoted to the seva of Shri Gokulnathji — daily darshan, utsav, satsang and community service.
+        - generic [ref=f21e299]:
+          - heading "Explore" [level=4] [ref=f21e300]
+          - list [ref=f21e301]:
+            - listitem [ref=f21e302]:
+              - link "About Us" [ref=f21e303] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f21e304]:
+              - link "Events & Utsav" [ref=f21e305] [cursor=pointer]:
+                - /url: /events
+            - listitem [ref=f21e306]:
+              - link "Live Darshan" [ref=f21e307] [cursor=pointer]:
+                - /url: /live
+            - listitem [ref=f21e308]:
+              - link "Bhajans" [ref=f21e309] [cursor=pointer]:
+                - /url: /bhajans
+            - listitem [ref=f21e310]:
+              - link "Donate & Seva" [ref=f21e311] [cursor=pointer]:
+                - /url: /donate
+        - generic [ref=f21e312]:
+          - heading "Contact" [level=4] [ref=f21e313]
+          - list [ref=f21e314]:
+            - listitem [ref=f21e315]:
+              - generic [ref=f21e319]: Atlanta, GA
+            - listitem [ref=f21e320]
+            - listitem [ref=f21e323]:
+              - generic [ref=f21e327]: info@gokuldham.org
+      - generic [ref=f21e329]:
+        - paragraph [ref=f21e330]: © 2026 Gokuldham Haveli, Atlanta. All rights reserved.
+        - link "Admin" [ref=f21e331] [cursor=pointer]:
+          - /url: /admin
+  - region "Notifications alt+T"
