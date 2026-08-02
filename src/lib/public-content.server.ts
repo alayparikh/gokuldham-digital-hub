@@ -120,8 +120,8 @@ export async function fetchGallery() {
 export async function submitContactMessage(input: {
   name: string;
   email: string;
-  phone?: string;
-  subject?: string;
+  phone?: string | undefined;
+  subject?: string | undefined;
   message: string;
 }) {
   const sb = publicClient();
