@@ -1,0 +1,136 @@
+- generic [active] [ref=f46e1]:
+    - generic [ref=f46e2]:
+        - banner [ref=f46e3]:
+            - generic [ref=f46e4]:
+                - link "ॐ Gokuldham Haveli Atlanta, GA" [ref=f46e5] [cursor=pointer]:
+                    - /url: /
+                    - generic [ref=f46e6]: ॐ
+                    - generic [ref=f46e8]:
+                        - generic [ref=f46e9]: Gokuldham Haveli
+                        - generic [ref=f46e10]: Atlanta, GA
+                - navigation [ref=f46e11]:
+                    - button "About Us" [ref=f46e13]
+                    - button "Build Our Future" [ref=f46e17]
+                    - button "Calendar" [ref=f46e21]
+                    - button "Resources" [ref=f46e25]
+                    - link "Live" [ref=f46e28] [cursor=pointer]:
+                        - /url: /live
+                    - link "Bhajans" [ref=f46e29] [cursor=pointer]:
+                        - /url: /bhajans
+                    - link "Blog" [ref=f46e30] [cursor=pointer]:
+                        - /url: /blog
+                    - link "Contact Us" [ref=f46e31] [cursor=pointer]:
+                        - /url: /contact
+                - generic [ref=f46e32]:
+                    - link "Gokuldham Prasadam" [ref=f46e33] [cursor=pointer]:
+                        - /url: https://online.gokuldham.org
+                    - link "Donate" [ref=f46e34] [cursor=pointer]:
+                        - /url: /donate
+        - main [ref=f46e37]:
+            - generic [ref=f46e39]:
+                - heading "Annual Calendar" [level=1] [ref=f46e40]
+                - generic [ref=f46e41]: ✦
+                - paragraph [ref=f46e45]: Utsavs, festivals and observances at Gokuldham Haveli through the year.
+            - generic [ref=f46e46]:
+                - generic [ref=f46e48]:
+                    - button "2026" [expanded] [ref=f46e49]
+                    - generic [ref=f46e53]:
+                        - generic [ref=f46e54]:
+                            - heading "August" [level=3] [ref=f46e55]
+                            - list [ref=f46e56]:
+                                - listitem [ref=f46e57]:
+                                    - link "Aug 12 Gokuldham Haveli - List of Utsav's / Events in the year 2026" [ref=f46e58] [cursor=pointer]:
+                                        - /url: /events/gokuldham-utsav
+                                        - generic [ref=f46e59]: Aug 12
+                                        - generic [ref=f46e60]: Gokuldham Haveli - List of Utsav's / Events in the year 2026
+                        - generic [ref=f46e61]:
+                            - heading "September" [level=3] [ref=f46e62]
+                            - list [ref=f46e63]:
+                                - listitem [ref=f46e64]:
+                                    - link "Sep 1 Shri Krishna Janmashtami" [ref=f46e65] [cursor=pointer]:
+                                        - /url: /events/janmashtami
+                                        - generic [ref=f46e66]: Sep 1
+                                        - generic [ref=f46e67]: Shri Krishna Janmashtami
+                        - generic [ref=f46e68]:
+                            - heading "October" [level=3] [ref=f46e69]
+                            - list [ref=f46e70]:
+                                - listitem [ref=f46e71]:
+                                    - link "Oct 31 Annakut Mahotsav" [ref=f46e72] [cursor=pointer]:
+                                        - /url: /events/annakut
+                                        - generic [ref=f46e73]: Oct 31
+                                        - generic [ref=f46e74]: Annakut Mahotsav
+                - paragraph [ref=f46e75]:
+                    - text: Looking for auspicious dates?
+                    - link "See Vaishnav Muhrat" [ref=f46e76] [cursor=pointer]:
+                        - /url: /calendar/vaishnav-muhrat
+                    - text: .
+        - contentinfo [ref=f46e77]:
+            - generic [ref=f46e78]:
+                - generic [ref=f46e79]:
+                    - heading "Gokuldham Haveli" [level=3] [ref=f46e80]
+                    - paragraph [ref=f46e81]: મારું ગોકુલધામ, તારું ગોકુલધામ આપણું ગોકુલધામ
+                    - paragraph [ref=f46e82]: A Pushtimarg Vaishnav haveli in Atlanta, Georgia devoted to the seva of Shri Gokulnathji — daily darshan, utsav, satsang and community service.
+                - generic [ref=f46e83]:
+                    - heading "Explore" [level=4] [ref=f46e84]
+                    - list [ref=f46e85]:
+                        - listitem [ref=f46e86]:
+                            - link "About Us" [ref=f46e87] [cursor=pointer]:
+                                - /url: /about
+                        - listitem [ref=f46e88]:
+                            - link "Newsletters" [ref=f46e89] [cursor=pointer]:
+                                - /url: /about-us/newsletters
+                        - listitem [ref=f46e90]:
+                            - link "Events & Utsav" [ref=f46e91] [cursor=pointer]:
+                                - /url: /events
+                        - listitem [ref=f46e92]:
+                            - link "Annual Calendar" [ref=f46e93] [cursor=pointer]:
+                                - /url: /calendar/annual-calendar
+                        - listitem [ref=f46e94]:
+                            - link "Darshan Guide" [ref=f46e95] [cursor=pointer]:
+                                - /url: /resources
+                        - listitem [ref=f46e96]:
+                            - link "Blog" [ref=f46e97] [cursor=pointer]:
+                                - /url: /blog
+                - generic [ref=f46e98]:
+                    - heading "Community" [level=4] [ref=f46e99]
+                    - list [ref=f46e100]:
+                        - listitem [ref=f46e101]:
+                            - link "Vidyalaya" [ref=f46e102] [cursor=pointer]:
+                                - /url: /build-our-future/vidyalaya
+                        - listitem [ref=f46e103]:
+                            - link "Volunteer" [ref=f46e104] [cursor=pointer]:
+                                - /url: /build-our-future/volunteer
+                        - listitem [ref=f46e105]:
+                            - link "Summer Camp" [ref=f46e106] [cursor=pointer]:
+                                - /url: /build-our-future/summer-camp
+                        - listitem [ref=f46e107]:
+                            - link "Live Darshan" [ref=f46e108] [cursor=pointer]:
+                                - /url: /live
+                        - listitem [ref=f46e109]:
+                            - link "Bhajans" [ref=f46e110] [cursor=pointer]:
+                                - /url: /bhajans
+                        - listitem [ref=f46e111]:
+                            - link "Donate & Seva" [ref=f46e112] [cursor=pointer]:
+                                - /url: /donate
+                - generic [ref=f46e113]:
+                    - heading "Contact" [level=4] [ref=f46e114]
+                    - list [ref=f46e115]:
+                        - listitem [ref=f46e116]:
+                            - link "2397 Satellite Blvd NE, Buford, GA 30518" [ref=f46e120] [cursor=pointer]:
+                                - /url: https://www.google.com/maps/search/?api=1&query=2397%20Satellite%20Blvd%20NE%2C%20Buford%2C%20GA%2030518
+                        - listitem [ref=f46e121]:
+                            - link "(770) 492-4346" [ref=f46e124] [cursor=pointer]:
+                                - /url: tel:7704924346
+                        - listitem [ref=f46e125]:
+                            - link "shrinathjihaveliatlanta@gmail.com" [ref=f46e129] [cursor=pointer]:
+                                - /url: mailto:shrinathjihaveliatlanta@gmail.com
+            - generic [ref=f46e131]:
+                - paragraph [ref=f46e132]: © 2026 Gokuldham Haveli, Atlanta. All rights reserved.
+                - generic [ref=f46e133]:
+                    - link "Gokuldham Prasadam" [ref=f46e134] [cursor=pointer]:
+                        - /url: https://online.gokuldham.org
+                    - link "Contact Us" [ref=f46e135] [cursor=pointer]:
+                        - /url: /contact
+                    - link "Admin" [ref=f46e136] [cursor=pointer]:
+                        - /url: /admin
+    - region "Notifications alt+T"

@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:gokuldham.org)",
+      "Bash(echo \"TSC exit=$?\")",
+      "mcp__playwright__browser_evaluate",
+      "Bash(python3 -c ' *)",
+      "Bash(curl -s \"https://zkzyrhhaiahwysgutanx.supabase.co/rest/v1/site_settings?select=key,value&key=in.\\(address,phone,email\\)\" -H \"apikey: sb_publishable_F1KjUiu4GvJ0XfEWJ9Qc8w_UjjcNdt8\")",
+      "Bash(curl -s http://localhost:3000/contact -o /tmp/c.html)",
+      "Read(//tmp/**)"
+    ]
+  }
+}

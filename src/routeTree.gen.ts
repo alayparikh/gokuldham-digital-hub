@@ -18,9 +18,17 @@ import { Route as ContactRouteImport } from './routes/contact'
 import { Route as DonateRouteImport } from './routes/donate'
 import { Route as GalleryRouteImport } from './routes/gallery'
 import { Route as LiveRouteImport } from './routes/live'
+import { Route as ResourcesRouteImport } from './routes/resources'
 import { Route as AuthenticatedAdminRouteImport } from './routes/_authenticated/admin'
+import { Route as AboutUsAnnakutMahotsavRouteImport } from './routes/about-us/annakut-mahotsav'
+import { Route as AboutUsNewslettersRouteImport } from './routes/about-us/newsletters'
 import { Route as BlogIndexRouteImport } from './routes/blog/index'
 import { Route as BlogSlugRouteImport } from './routes/blog/$slug'
+import { Route as BuildOurFutureSummerCampRouteImport } from './routes/build-our-future/summer-camp'
+import { Route as BuildOurFutureVidyalayaRouteImport } from './routes/build-our-future/vidyalaya'
+import { Route as BuildOurFutureVolunteerRouteImport } from './routes/build-our-future/volunteer'
+import { Route as CalendarAnnualCalendarRouteImport } from './routes/calendar/annual-calendar'
+import { Route as CalendarVaishnavMuhratRouteImport } from './routes/calendar/vaishnav-muhrat'
 import { Route as EventsIndexRouteImport } from './routes/events/index'
 import { Route as EventsSlugRouteImport } from './routes/events/$slug'
 
@@ -68,10 +76,25 @@ const LiveRoute = LiveRouteImport.update({
   path: '/live',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ResourcesRoute = ResourcesRouteImport.update({
+  id: '/resources',
+  path: '/resources',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const AuthenticatedAdminRoute = AuthenticatedAdminRouteImport.update({
   id: '/admin',
   path: '/admin',
   getParentRoute: () => AuthenticatedRouteRoute,
+} as any)
+const AboutUsAnnakutMahotsavRoute = AboutUsAnnakutMahotsavRouteImport.update({
+  id: '/about-us/annakut-mahotsav',
+  path: '/about-us/annakut-mahotsav',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AboutUsNewslettersRoute = AboutUsNewslettersRouteImport.update({
+  id: '/about-us/newsletters',
+  path: '/about-us/newsletters',
+  getParentRoute: () => rootRouteImport,
 } as any)
 const BlogIndexRoute = BlogIndexRouteImport.update({
   id: '/blog/',
@@ -81,6 +104,32 @@ const BlogIndexRoute = BlogIndexRouteImport.update({
 const BlogSlugRoute = BlogSlugRouteImport.update({
   id: '/blog/$slug',
   path: '/blog/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BuildOurFutureSummerCampRoute =
+  BuildOurFutureSummerCampRouteImport.update({
+    id: '/build-our-future/summer-camp',
+    path: '/build-our-future/summer-camp',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const BuildOurFutureVidyalayaRoute = BuildOurFutureVidyalayaRouteImport.update({
+  id: '/build-our-future/vidyalaya',
+  path: '/build-our-future/vidyalaya',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BuildOurFutureVolunteerRoute = BuildOurFutureVolunteerRouteImport.update({
+  id: '/build-our-future/volunteer',
+  path: '/build-our-future/volunteer',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CalendarAnnualCalendarRoute = CalendarAnnualCalendarRouteImport.update({
+  id: '/calendar/annual-calendar',
+  path: '/calendar/annual-calendar',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CalendarVaishnavMuhratRoute = CalendarVaishnavMuhratRouteImport.update({
+  id: '/calendar/vaishnav-muhrat',
+  path: '/calendar/vaishnav-muhrat',
   getParentRoute: () => rootRouteImport,
 } as any)
 const EventsIndexRoute = EventsIndexRouteImport.update({
@@ -103,8 +152,16 @@ export interface FileRoutesByFullPath {
   '/donate': typeof DonateRoute
   '/gallery': typeof GalleryRoute
   '/live': typeof LiveRoute
+  '/resources': typeof ResourcesRoute
   '/admin': typeof AuthenticatedAdminRoute
+  '/about-us/annakut-mahotsav': typeof AboutUsAnnakutMahotsavRoute
+  '/about-us/newsletters': typeof AboutUsNewslettersRoute
   '/blog/$slug': typeof BlogSlugRoute
+  '/build-our-future/summer-camp': typeof BuildOurFutureSummerCampRoute
+  '/build-our-future/vidyalaya': typeof BuildOurFutureVidyalayaRoute
+  '/build-our-future/volunteer': typeof BuildOurFutureVolunteerRoute
+  '/calendar/annual-calendar': typeof CalendarAnnualCalendarRoute
+  '/calendar/vaishnav-muhrat': typeof CalendarVaishnavMuhratRoute
   '/events/$slug': typeof EventsSlugRoute
   '/blog/': typeof BlogIndexRoute
   '/events/': typeof EventsIndexRoute
@@ -118,8 +175,16 @@ export interface FileRoutesByTo {
   '/donate': typeof DonateRoute
   '/gallery': typeof GalleryRoute
   '/live': typeof LiveRoute
+  '/resources': typeof ResourcesRoute
   '/admin': typeof AuthenticatedAdminRoute
+  '/about-us/annakut-mahotsav': typeof AboutUsAnnakutMahotsavRoute
+  '/about-us/newsletters': typeof AboutUsNewslettersRoute
   '/blog/$slug': typeof BlogSlugRoute
+  '/build-our-future/summer-camp': typeof BuildOurFutureSummerCampRoute
+  '/build-our-future/vidyalaya': typeof BuildOurFutureVidyalayaRoute
+  '/build-our-future/volunteer': typeof BuildOurFutureVolunteerRoute
+  '/calendar/annual-calendar': typeof CalendarAnnualCalendarRoute
+  '/calendar/vaishnav-muhrat': typeof CalendarVaishnavMuhratRoute
   '/events/$slug': typeof EventsSlugRoute
   '/blog': typeof BlogIndexRoute
   '/events': typeof EventsIndexRoute
@@ -135,8 +200,16 @@ export interface FileRoutesById {
   '/donate': typeof DonateRoute
   '/gallery': typeof GalleryRoute
   '/live': typeof LiveRoute
+  '/resources': typeof ResourcesRoute
   '/_authenticated/admin': typeof AuthenticatedAdminRoute
+  '/about-us/annakut-mahotsav': typeof AboutUsAnnakutMahotsavRoute
+  '/about-us/newsletters': typeof AboutUsNewslettersRoute
   '/blog/$slug': typeof BlogSlugRoute
+  '/build-our-future/summer-camp': typeof BuildOurFutureSummerCampRoute
+  '/build-our-future/vidyalaya': typeof BuildOurFutureVidyalayaRoute
+  '/build-our-future/volunteer': typeof BuildOurFutureVolunteerRoute
+  '/calendar/annual-calendar': typeof CalendarAnnualCalendarRoute
+  '/calendar/vaishnav-muhrat': typeof CalendarVaishnavMuhratRoute
   '/events/$slug': typeof EventsSlugRoute
   '/blog/': typeof BlogIndexRoute
   '/events/': typeof EventsIndexRoute
@@ -152,8 +225,16 @@ export interface FileRouteTypes {
     | '/donate'
     | '/gallery'
     | '/live'
+    | '/resources'
     | '/admin'
+    | '/about-us/annakut-mahotsav'
+    | '/about-us/newsletters'
     | '/blog/$slug'
+    | '/build-our-future/summer-camp'
+    | '/build-our-future/vidyalaya'
+    | '/build-our-future/volunteer'
+    | '/calendar/annual-calendar'
+    | '/calendar/vaishnav-muhrat'
     | '/events/$slug'
     | '/blog/'
     | '/events/'
@@ -167,8 +248,16 @@ export interface FileRouteTypes {
     | '/donate'
     | '/gallery'
     | '/live'
+    | '/resources'
     | '/admin'
+    | '/about-us/annakut-mahotsav'
+    | '/about-us/newsletters'
     | '/blog/$slug'
+    | '/build-our-future/summer-camp'
+    | '/build-our-future/vidyalaya'
+    | '/build-our-future/volunteer'
+    | '/calendar/annual-calendar'
+    | '/calendar/vaishnav-muhrat'
     | '/events/$slug'
     | '/blog'
     | '/events'
@@ -183,8 +272,16 @@ export interface FileRouteTypes {
     | '/donate'
     | '/gallery'
     | '/live'
+    | '/resources'
     | '/_authenticated/admin'
+    | '/about-us/annakut-mahotsav'
+    | '/about-us/newsletters'
     | '/blog/$slug'
+    | '/build-our-future/summer-camp'
+    | '/build-our-future/vidyalaya'
+    | '/build-our-future/volunteer'
+    | '/calendar/annual-calendar'
+    | '/calendar/vaishnav-muhrat'
     | '/events/$slug'
     | '/blog/'
     | '/events/'
@@ -200,7 +297,15 @@ export interface RootRouteChildren {
   DonateRoute: typeof DonateRoute
   GalleryRoute: typeof GalleryRoute
   LiveRoute: typeof LiveRoute
+  ResourcesRoute: typeof ResourcesRoute
+  AboutUsAnnakutMahotsavRoute: typeof AboutUsAnnakutMahotsavRoute
+  AboutUsNewslettersRoute: typeof AboutUsNewslettersRoute
   BlogSlugRoute: typeof BlogSlugRoute
+  BuildOurFutureSummerCampRoute: typeof BuildOurFutureSummerCampRoute
+  BuildOurFutureVidyalayaRoute: typeof BuildOurFutureVidyalayaRoute
+  BuildOurFutureVolunteerRoute: typeof BuildOurFutureVolunteerRoute
+  CalendarAnnualCalendarRoute: typeof CalendarAnnualCalendarRoute
+  CalendarVaishnavMuhratRoute: typeof CalendarVaishnavMuhratRoute
   EventsSlugRoute: typeof EventsSlugRoute
   BlogIndexRoute: typeof BlogIndexRoute
   EventsIndexRoute: typeof EventsIndexRoute
@@ -271,12 +376,33 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LiveRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/resources': {
+      id: '/resources'
+      path: '/resources'
+      fullPath: '/resources'
+      preLoaderRoute: typeof ResourcesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/_authenticated/admin': {
       id: '/_authenticated/admin'
       path: '/admin'
       fullPath: '/admin'
       preLoaderRoute: typeof AuthenticatedAdminRouteImport
       parentRoute: typeof AuthenticatedRouteRoute
+    }
+    '/about-us/annakut-mahotsav': {
+      id: '/about-us/annakut-mahotsav'
+      path: '/about-us/annakut-mahotsav'
+      fullPath: '/about-us/annakut-mahotsav'
+      preLoaderRoute: typeof AboutUsAnnakutMahotsavRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/about-us/newsletters': {
+      id: '/about-us/newsletters'
+      path: '/about-us/newsletters'
+      fullPath: '/about-us/newsletters'
+      preLoaderRoute: typeof AboutUsNewslettersRouteImport
+      parentRoute: typeof rootRouteImport
     }
     '/blog/': {
       id: '/blog/'
@@ -290,6 +416,41 @@ declare module '@tanstack/react-router' {
       path: '/blog/$slug'
       fullPath: '/blog/$slug'
       preLoaderRoute: typeof BlogSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/build-our-future/summer-camp': {
+      id: '/build-our-future/summer-camp'
+      path: '/build-our-future/summer-camp'
+      fullPath: '/build-our-future/summer-camp'
+      preLoaderRoute: typeof BuildOurFutureSummerCampRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/build-our-future/vidyalaya': {
+      id: '/build-our-future/vidyalaya'
+      path: '/build-our-future/vidyalaya'
+      fullPath: '/build-our-future/vidyalaya'
+      preLoaderRoute: typeof BuildOurFutureVidyalayaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/build-our-future/volunteer': {
+      id: '/build-our-future/volunteer'
+      path: '/build-our-future/volunteer'
+      fullPath: '/build-our-future/volunteer'
+      preLoaderRoute: typeof BuildOurFutureVolunteerRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/calendar/annual-calendar': {
+      id: '/calendar/annual-calendar'
+      path: '/calendar/annual-calendar'
+      fullPath: '/calendar/annual-calendar'
+      preLoaderRoute: typeof CalendarAnnualCalendarRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/calendar/vaishnav-muhrat': {
+      id: '/calendar/vaishnav-muhrat'
+      path: '/calendar/vaishnav-muhrat'
+      fullPath: '/calendar/vaishnav-muhrat'
+      preLoaderRoute: typeof CalendarVaishnavMuhratRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/events/': {
@@ -330,7 +491,15 @@ const rootRouteChildren: RootRouteChildren = {
   DonateRoute: DonateRoute,
   GalleryRoute: GalleryRoute,
   LiveRoute: LiveRoute,
+  ResourcesRoute: ResourcesRoute,
+  AboutUsAnnakutMahotsavRoute: AboutUsAnnakutMahotsavRoute,
+  AboutUsNewslettersRoute: AboutUsNewslettersRoute,
   BlogSlugRoute: BlogSlugRoute,
+  BuildOurFutureSummerCampRoute: BuildOurFutureSummerCampRoute,
+  BuildOurFutureVidyalayaRoute: BuildOurFutureVidyalayaRoute,
+  BuildOurFutureVolunteerRoute: BuildOurFutureVolunteerRoute,
+  CalendarAnnualCalendarRoute: CalendarAnnualCalendarRoute,
+  CalendarVaishnavMuhratRoute: CalendarVaishnavMuhratRoute,
   EventsSlugRoute: EventsSlugRoute,
   BlogIndexRoute: BlogIndexRoute,
   EventsIndexRoute: EventsIndexRoute,

@@ -1,0 +1,126 @@
+- generic [ref=f43e1]:
+    - generic [ref=f43e2]:
+        - banner [ref=f43e3]:
+            - generic [ref=f43e4]:
+                - link "ॐ Gokuldham Haveli Atlanta, GA" [ref=f43e5] [cursor=pointer]:
+                    - /url: /
+                    - generic [ref=f43e6]: ॐ
+                    - generic [ref=f43e8]:
+                        - generic [ref=f43e9]: Gokuldham Haveli
+                        - generic [ref=f43e10]: Atlanta, GA
+                - navigation [ref=f43e11]:
+                    - button "About Us" [ref=f43e13]
+                    - button "Build Our Future" [ref=f43e17]
+                    - button "Calendar" [ref=f43e21]
+                    - button "Resources" [ref=f43e25]
+                    - link "Live" [ref=f43e28] [cursor=pointer]:
+                        - /url: /live
+                    - link "Bhajans" [ref=f43e29] [cursor=pointer]:
+                        - /url: /bhajans
+                    - link "Blog" [ref=f43e30] [cursor=pointer]:
+                        - /url: /blog
+                    - link "Contact Us" [active] [ref=f43e31] [cursor=pointer]:
+                        - /url: /contact
+                - generic [ref=f43e32]:
+                    - link "Gokuldham Prasadam" [ref=f43e33] [cursor=pointer]:
+                        - /url: https://online.gokuldham.org
+                    - link "Donate" [ref=f43e34] [cursor=pointer]:
+                        - /url: /donate
+        - main [ref=f43e37]:
+            - generic [ref=f43e367]:
+                - heading "Contact Us" [level=1] [ref=f43e368]
+                - generic [ref=f43e369]: ✦
+                - paragraph [ref=f43e373]: We would love to hear from you.
+            - generic [ref=f43e374]:
+                - generic [ref=f43e375]:
+                    - generic [ref=f43e380]:
+                        - heading "Address" [level=2] [ref=f43e381]
+                        - link "3350 Bells Ferry Road, Marietta, GA 30066" [ref=f43e382] [cursor=pointer]:
+                            - /url: https://www.google.com/maps/search/?api=1&query=3350%20Bells%20Ferry%20Road%2C%20Marietta%2C%20GA%2030066
+                    - generic [ref=f43e386]:
+                        - heading "Phone" [level=2] [ref=f43e387]
+                        - link "(770) 555-0143" [ref=f43e388] [cursor=pointer]:
+                            - /url: tel:7705550143
+                    - generic [ref=f43e393]:
+                        - heading "Email" [level=2] [ref=f43e394]
+                        - link "info@gokuldham.org" [ref=f43e395] [cursor=pointer]:
+                            - /url: mailto:info@gokuldham.org
+                - generic [ref=f43e396]:
+                    - generic [ref=f43e397]:
+                        - textbox "Your name" [ref=f43e398]
+                        - textbox "Email address" [ref=f43e399]
+                    - generic [ref=f43e400]:
+                        - textbox "Phone (optional)" [ref=f43e401]
+                        - textbox "Subject (optional)" [ref=f43e402]
+                    - textbox "How can we help?" [ref=f43e403]
+                    - button "Send message" [ref=f43e404] [cursor=pointer]
+        - contentinfo [ref=f43e306]:
+            - generic [ref=f43e307]:
+                - generic [ref=f43e308]:
+                    - heading "Gokuldham Haveli" [level=3] [ref=f43e309]
+                    - paragraph [ref=f43e310]: મારું ગોકુલધામ, તારું ગોકુલધામ આપણું ગોકુલધામ
+                    - paragraph [ref=f43e311]: A Pushtimarg Vaishnav haveli in Atlanta, Georgia devoted to the seva of Shri Gokulnathji — daily darshan, utsav, satsang and community service.
+                - generic [ref=f43e312]:
+                    - heading "Explore" [level=4] [ref=f43e313]
+                    - list [ref=f43e314]:
+                        - listitem [ref=f43e315]:
+                            - link "About Us" [ref=f43e316] [cursor=pointer]:
+                                - /url: /about
+                        - listitem [ref=f43e317]:
+                            - link "Newsletters" [ref=f43e318] [cursor=pointer]:
+                                - /url: /about-us/newsletters
+                        - listitem [ref=f43e319]:
+                            - link "Events & Utsav" [ref=f43e320] [cursor=pointer]:
+                                - /url: /events
+                        - listitem [ref=f43e321]:
+                            - link "Annual Calendar" [ref=f43e322] [cursor=pointer]:
+                                - /url: /calendar/annual-calendar
+                        - listitem [ref=f43e323]:
+                            - link "Darshan Guide" [ref=f43e324] [cursor=pointer]:
+                                - /url: /resources
+                        - listitem [ref=f43e325]:
+                            - link "Blog" [ref=f43e326] [cursor=pointer]:
+                                - /url: /blog
+                - generic [ref=f43e327]:
+                    - heading "Community" [level=4] [ref=f43e328]
+                    - list [ref=f43e329]:
+                        - listitem [ref=f43e330]:
+                            - link "Vidyalaya" [ref=f43e331] [cursor=pointer]:
+                                - /url: /build-our-future/vidyalaya
+                        - listitem [ref=f43e332]:
+                            - link "Volunteer" [ref=f43e333] [cursor=pointer]:
+                                - /url: /build-our-future/volunteer
+                        - listitem [ref=f43e334]:
+                            - link "Summer Camp" [ref=f43e335] [cursor=pointer]:
+                                - /url: /build-our-future/summer-camp
+                        - listitem [ref=f43e336]:
+                            - link "Live Darshan" [ref=f43e337] [cursor=pointer]:
+                                - /url: /live
+                        - listitem [ref=f43e338]:
+                            - link "Bhajans" [ref=f43e339] [cursor=pointer]:
+                                - /url: /bhajans
+                        - listitem [ref=f43e340]:
+                            - link "Donate & Seva" [ref=f43e341] [cursor=pointer]:
+                                - /url: /donate
+                - generic [ref=f43e342]:
+                    - heading "Contact" [level=4] [ref=f43e343]
+                    - list [ref=f43e344]:
+                        - listitem [ref=f43e345]:
+                            - link "2397 Satellite Blvd NE, Buford, GA 30518" [ref=f43e349] [cursor=pointer]:
+                                - /url: https://www.google.com/maps/search/?api=1&query=2397%20Satellite%20Blvd%20NE%2C%20Buford%2C%20GA%2030518
+                        - listitem [ref=f43e350]:
+                            - link "(770) 492-4346" [ref=f43e353] [cursor=pointer]:
+                                - /url: tel:7704924346
+                        - listitem [ref=f43e354]:
+                            - link "shrinathjihaveliatlanta@gmail.com" [ref=f43e358] [cursor=pointer]:
+                                - /url: mailto:shrinathjihaveliatlanta@gmail.com
+            - generic [ref=f43e360]:
+                - paragraph [ref=f43e361]: © 2026 Gokuldham Haveli, Atlanta. All rights reserved.
+                - generic [ref=f43e362]:
+                    - link "Gokuldham Prasadam" [ref=f43e363] [cursor=pointer]:
+                        - /url: https://online.gokuldham.org
+                    - link "Contact Us" [ref=f43e364] [cursor=pointer]:
+                        - /url: /contact
+                    - link "Admin" [ref=f43e365] [cursor=pointer]:
+                        - /url: /admin
+    - region "Notifications alt+T"

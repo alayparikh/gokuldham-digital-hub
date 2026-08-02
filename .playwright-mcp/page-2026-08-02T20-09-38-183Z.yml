@@ -1,0 +1,119 @@
+- generic [active] [ref=f50e1]:
+  - generic [ref=f50e2]:
+    - banner [ref=f50e3]:
+      - generic [ref=f50e4]:
+        - link "ॐ Gokuldham Haveli Atlanta, GA" [ref=f50e5] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f50e6]: ॐ
+          - generic [ref=f50e8]:
+            - generic [ref=f50e9]: Gokuldham Haveli
+            - generic [ref=f50e10]: Atlanta, GA
+        - navigation [ref=f50e11]:
+          - button "About Us" [ref=f50e13]
+          - button "Build Our Future" [ref=f50e17]
+          - button "Calendar" [ref=f50e21]
+          - button "Resources" [ref=f50e25]
+          - link "Live" [ref=f50e28] [cursor=pointer]:
+            - /url: /live
+          - link "Bhajans" [ref=f50e29] [cursor=pointer]:
+            - /url: /bhajans
+          - link "Blog" [ref=f50e30] [cursor=pointer]:
+            - /url: /blog
+          - link "Contact Us" [ref=f50e31] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=f50e32]:
+          - link "Gokuldham Prasadam" [ref=f50e33] [cursor=pointer]:
+            - /url: https://online.gokuldham.org
+          - link "Donate" [ref=f50e34] [cursor=pointer]:
+            - /url: /donate
+    - main [ref=f50e37]:
+      - generic [ref=f50e39]:
+        - heading "About Gokuldham" [level=1] [ref=f50e40]
+        - generic [ref=f50e41]: ✦
+        - paragraph [ref=f50e45]: મારું ગોકુલધામ, તારું ગોકુલધામ આપણું ગોકુલધામ
+      - generic [ref=f50e46]:
+        - paragraph [ref=f50e47]: Gokuldham Haveli is a Pushtimarg Vaishnav temple in Atlanta, Georgia, dedicated to the seva of Shri Gokulnathji. Founded by devotees who wished to carry the traditions of Shrimad Vallabhacharya Mahaprabhuji to the American South, the Haveli is a home for daily darshan, utsav celebration, satsang and community service.
+        - generic [ref=f50e48]:
+          - generic [ref=f50e49]:
+            - heading "Seva" [level=3] [ref=f50e50]
+            - paragraph [ref=f50e51]: Daily darshan, shringar and bhog offered to Shri Gokulnathji.
+          - generic [ref=f50e52]:
+            - heading "Satsang" [level=3] [ref=f50e53]
+            - paragraph [ref=f50e54]: Kathas, bhajans and utsav that keep our traditions alive.
+          - generic [ref=f50e55]:
+            - heading "Community" [level=3] [ref=f50e56]
+            - paragraph [ref=f50e57]: A home for Vaishnav families across Georgia and beyond.
+        - generic [ref=f50e59]:
+          - heading "Visit Us" [level=2] [ref=f50e60]
+          - generic [ref=f50e61]: ✦
+          - paragraph [ref=f50e65]: 2397 Satellite Blvd NE, Buford, GA 30518
+    - contentinfo [ref=f50e66]:
+      - generic [ref=f50e67]:
+        - generic [ref=f50e68]:
+          - heading "Gokuldham Haveli" [level=3] [ref=f50e69]
+          - paragraph [ref=f50e70]: મારું ગોકુલધામ, તારું ગોકુલધામ આપણું ગોકુલધામ
+          - paragraph [ref=f50e71]: A Pushtimarg Vaishnav haveli in Atlanta, Georgia devoted to the seva of Shri Gokulnathji — daily darshan, utsav, satsang and community service.
+        - generic [ref=f50e72]:
+          - heading "Explore" [level=4] [ref=f50e73]
+          - list [ref=f50e74]:
+            - listitem [ref=f50e75]:
+              - link "About Us" [ref=f50e76] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f50e77]:
+              - link "Newsletters" [ref=f50e78] [cursor=pointer]:
+                - /url: /about-us/newsletters
+            - listitem [ref=f50e79]:
+              - link "Events & Utsav" [ref=f50e80] [cursor=pointer]:
+                - /url: /events
+            - listitem [ref=f50e81]:
+              - link "Annual Calendar" [ref=f50e82] [cursor=pointer]:
+                - /url: /calendar/annual-calendar
+            - listitem [ref=f50e83]:
+              - link "Darshan Guide" [ref=f50e84] [cursor=pointer]:
+                - /url: /resources
+            - listitem [ref=f50e85]:
+              - link "Blog" [ref=f50e86] [cursor=pointer]:
+                - /url: /blog
+        - generic [ref=f50e87]:
+          - heading "Community" [level=4] [ref=f50e88]
+          - list [ref=f50e89]:
+            - listitem [ref=f50e90]:
+              - link "Vidyalaya" [ref=f50e91] [cursor=pointer]:
+                - /url: /build-our-future/vidyalaya
+            - listitem [ref=f50e92]:
+              - link "Volunteer" [ref=f50e93] [cursor=pointer]:
+                - /url: /build-our-future/volunteer
+            - listitem [ref=f50e94]:
+              - link "Summer Camp" [ref=f50e95] [cursor=pointer]:
+                - /url: /build-our-future/summer-camp
+            - listitem [ref=f50e96]:
+              - link "Live Darshan" [ref=f50e97] [cursor=pointer]:
+                - /url: /live
+            - listitem [ref=f50e98]:
+              - link "Bhajans" [ref=f50e99] [cursor=pointer]:
+                - /url: /bhajans
+            - listitem [ref=f50e100]:
+              - link "Donate & Seva" [ref=f50e101] [cursor=pointer]:
+                - /url: /donate
+        - generic [ref=f50e102]:
+          - heading "Contact" [level=4] [ref=f50e103]
+          - list [ref=f50e104]:
+            - listitem [ref=f50e105]:
+              - link "2397 Satellite Blvd NE, Buford, GA 30518" [ref=f50e109] [cursor=pointer]:
+                - /url: https://www.google.com/maps/search/?api=1&query=2397%20Satellite%20Blvd%20NE%2C%20Buford%2C%20GA%2030518
+            - listitem [ref=f50e110]:
+              - link "(770) 492-4346" [ref=f50e113] [cursor=pointer]:
+                - /url: tel:7704924346
+            - listitem [ref=f50e114]:
+              - link "shrinathjihaveliatlanta@gmail.com" [ref=f50e118] [cursor=pointer]:
+                - /url: mailto:shrinathjihaveliatlanta@gmail.com
+      - generic [ref=f50e120]:
+        - paragraph [ref=f50e121]: © 2026 Gokuldham Haveli, Atlanta. All rights reserved.
+        - generic [ref=f50e122]:
+          - link "Gokuldham Prasadam" [ref=f50e123] [cursor=pointer]:
+            - /url: https://online.gokuldham.org
+          - link "Contact Us" [ref=f50e124] [cursor=pointer]:
+            - /url: /contact
+          - link "Admin" [ref=f50e125] [cursor=pointer]:
+            - /url: /admin
+  - region "Notifications alt+T"

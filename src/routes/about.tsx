@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useSuspenseQuery } from "@tanstack/react-query";
 import { settingsQuery } from "@/lib/queries";
+import { SITE_INFO, settingOr } from "@/lib/site-info";
 import { PageHeader, SectionHeading } from "@/components/site/SectionHeading";
 
 export const Route = createFileRoute("/about")({
@@ -46,7 +47,10 @@ function About() {
         </div>
 
         <div className="mt-14">
-          <SectionHeading title="Visit Us" subtitle={settings["address"]} />
+          <SectionHeading
+            title="Visit Us"
+            subtitle={settingOr(settings["address"], SITE_INFO.address)}
+          />
         </div>
       </section>
     </>

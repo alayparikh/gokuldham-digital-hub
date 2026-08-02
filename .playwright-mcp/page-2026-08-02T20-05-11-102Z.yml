@@ -1,0 +1,134 @@
+- generic [active] [ref=f45e1]:
+    - generic [ref=f45e2]:
+        - banner [ref=f45e3]:
+            - generic [ref=f45e4]:
+                - link "ॐ Gokuldham Haveli Atlanta, GA" [ref=f45e5] [cursor=pointer]:
+                    - /url: /
+                    - generic [ref=f45e6]: ॐ
+                    - generic [ref=f45e8]:
+                        - generic [ref=f45e9]: Gokuldham Haveli
+                        - generic [ref=f45e10]: Atlanta, GA
+                - navigation [ref=f45e11]:
+                    - button "About Us" [ref=f45e13]
+                    - button "Build Our Future" [ref=f45e17]
+                    - button "Calendar" [ref=f45e21]
+                    - button "Resources" [ref=f45e25]
+                    - link "Live" [ref=f45e28] [cursor=pointer]:
+                        - /url: /live
+                    - link "Bhajans" [ref=f45e29] [cursor=pointer]:
+                        - /url: /bhajans
+                    - link "Blog" [ref=f45e30] [cursor=pointer]:
+                        - /url: /blog
+                    - link "Contact Us" [ref=f45e31] [cursor=pointer]:
+                        - /url: /contact
+                - generic [ref=f45e32]:
+                    - link "Gokuldham Prasadam" [ref=f45e33] [cursor=pointer]:
+                        - /url: https://online.gokuldham.org
+                    - link "Donate" [ref=f45e34] [cursor=pointer]:
+                        - /url: /donate
+        - main [ref=f45e37]:
+            - generic [ref=f45e39]:
+                - heading "Volunteer" [level=1] [ref=f45e40]
+                - generic [ref=f45e41]: ✦
+                - paragraph [ref=f45e45]: Serving Shri Krishna in His divine form of ShriNathji through the Path of Grace — and serving the community that surrounds Him.
+            - generic [ref=f45e46]:
+                - generic [ref=f45e47]:
+                    - heading "Where you can help" [level=2] [ref=f45e48]
+                    - paragraph [ref=f45e49]: The Haveli runs on seva. Whether you can give an hour a month or a weekend a year, there is a place for you. Tell us where your interest lies and we will connect you with the right team.
+                    - list [ref=f45e50]:
+                        - listitem [ref=f45e51]: Event Management
+                        - listitem [ref=f45e52]: Teaching & Education
+                        - listitem [ref=f45e53]: Community Outreach
+                        - listitem [ref=f45e54]: Administrative Support
+                        - listitem [ref=f45e55]: Technical Support
+                        - listitem [ref=f45e56]: Other
+                - generic [ref=f45e57]:
+                    - textbox "Full name" [ref=f45e58]
+                    - generic [ref=f45e59]:
+                        - textbox "Phone number" [ref=f45e60]
+                        - textbox "Email address" [ref=f45e61]
+                    - generic [ref=f45e62]:
+                        - generic [ref=f45e63]: Area of interest
+                        - combobox "Area of interest" [ref=f45e64]:
+                            - option "Event Management" [selected]
+                            - option "Teaching & Education"
+                            - option "Community Outreach"
+                            - option "Administrative Support"
+                            - option "Technical Support"
+                            - option "Other"
+                    - textbox "Anything you would like us to know (optional)" [ref=f45e65]
+                    - generic [ref=f45e66]:
+                        - checkbox "Yes, I want to become a Volunteer" [ref=f45e67] [cursor=pointer]
+                        - checkbox
+                        - generic [ref=f45e68]: Yes, I want to become a Volunteer
+                    - button "Submit" [ref=f45e69] [cursor=pointer]
+        - contentinfo [ref=f45e70]:
+            - generic [ref=f45e71]:
+                - generic [ref=f45e72]:
+                    - heading "Gokuldham Haveli" [level=3] [ref=f45e73]
+                    - paragraph [ref=f45e74]: મારું ગોકુલધામ, તારું ગોકુલધામ આપણું ગોકુલધામ
+                    - paragraph [ref=f45e75]: A Pushtimarg Vaishnav haveli in Atlanta, Georgia devoted to the seva of Shri Gokulnathji — daily darshan, utsav, satsang and community service.
+                - generic [ref=f45e76]:
+                    - heading "Explore" [level=4] [ref=f45e77]
+                    - list [ref=f45e78]:
+                        - listitem [ref=f45e79]:
+                            - link "About Us" [ref=f45e80] [cursor=pointer]:
+                                - /url: /about
+                        - listitem [ref=f45e81]:
+                            - link "Newsletters" [ref=f45e82] [cursor=pointer]:
+                                - /url: /about-us/newsletters
+                        - listitem [ref=f45e83]:
+                            - link "Events & Utsav" [ref=f45e84] [cursor=pointer]:
+                                - /url: /events
+                        - listitem [ref=f45e85]:
+                            - link "Annual Calendar" [ref=f45e86] [cursor=pointer]:
+                                - /url: /calendar/annual-calendar
+                        - listitem [ref=f45e87]:
+                            - link "Darshan Guide" [ref=f45e88] [cursor=pointer]:
+                                - /url: /resources
+                        - listitem [ref=f45e89]:
+                            - link "Blog" [ref=f45e90] [cursor=pointer]:
+                                - /url: /blog
+                - generic [ref=f45e91]:
+                    - heading "Community" [level=4] [ref=f45e92]
+                    - list [ref=f45e93]:
+                        - listitem [ref=f45e94]:
+                            - link "Vidyalaya" [ref=f45e95] [cursor=pointer]:
+                                - /url: /build-our-future/vidyalaya
+                        - listitem [ref=f45e96]:
+                            - link "Volunteer" [ref=f45e97] [cursor=pointer]:
+                                - /url: /build-our-future/volunteer
+                        - listitem [ref=f45e98]:
+                            - link "Summer Camp" [ref=f45e99] [cursor=pointer]:
+                                - /url: /build-our-future/summer-camp
+                        - listitem [ref=f45e100]:
+                            - link "Live Darshan" [ref=f45e101] [cursor=pointer]:
+                                - /url: /live
+                        - listitem [ref=f45e102]:
+                            - link "Bhajans" [ref=f45e103] [cursor=pointer]:
+                                - /url: /bhajans
+                        - listitem [ref=f45e104]:
+                            - link "Donate & Seva" [ref=f45e105] [cursor=pointer]:
+                                - /url: /donate
+                - generic [ref=f45e106]:
+                    - heading "Contact" [level=4] [ref=f45e107]
+                    - list [ref=f45e108]:
+                        - listitem [ref=f45e109]:
+                            - link "2397 Satellite Blvd NE, Buford, GA 30518" [ref=f45e113] [cursor=pointer]:
+                                - /url: https://www.google.com/maps/search/?api=1&query=2397%20Satellite%20Blvd%20NE%2C%20Buford%2C%20GA%2030518
+                        - listitem [ref=f45e114]:
+                            - link "(770) 492-4346" [ref=f45e117] [cursor=pointer]:
+                                - /url: tel:7704924346
+                        - listitem [ref=f45e118]:
+                            - link "shrinathjihaveliatlanta@gmail.com" [ref=f45e122] [cursor=pointer]:
+                                - /url: mailto:shrinathjihaveliatlanta@gmail.com
+            - generic [ref=f45e124]:
+                - paragraph [ref=f45e125]: © 2026 Gokuldham Haveli, Atlanta. All rights reserved.
+                - generic [ref=f45e126]:
+                    - link "Gokuldham Prasadam" [ref=f45e127] [cursor=pointer]:
+                        - /url: https://online.gokuldham.org
+                    - link "Contact Us" [ref=f45e128] [cursor=pointer]:
+                        - /url: /contact
+                    - link "Admin" [ref=f45e129] [cursor=pointer]:
+                        - /url: /admin
+    - region "Notifications alt+T"

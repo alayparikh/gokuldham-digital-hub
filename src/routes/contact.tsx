@@ -5,6 +5,7 @@ import { useState } from "react";
 import { MapPin, Phone, Mail } from "lucide-react";
 import { toast } from "sonner";
 import { settingsQuery } from "@/lib/queries";
+import { SITE_INFO, settingOr, telHref, mapsHref } from "@/lib/site-info";
 import { sendContactMessage } from "@/lib/public-content.functions";
 import { PageHeader } from "@/components/site/SectionHeading";
 import { Input } from "@/components/ui/input";
@@ -35,6 +36,10 @@ function ContactPage() {
   const { data: settings } = useSuspenseQuery(settingsQuery);
   const submit = useServerFn(sendContactMessage);
   const [busy, setBusy] = useState(false);
+
+  const address = settingOr(settings["address"], SITE_INFO.address);
+  const phone = settingOr(settings["phone"], SITE_INFO.phone);
+  const email = settingOr(settings["email"], SITE_INFO.email);
 
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -69,21 +74,38 @@ function ContactPage() {
             <MapPin className="h-5 w-5 shrink-0 text-primary" />
             <div>
               <h2 className="text-base font-semibold text-maroon">Address</h2>
-              <p className="mt-1 text-sm text-muted-foreground">{settings["address"]}</p>
+              <a
+                href={mapsHref(address)}
+                target="_blank"
+                rel="noreferrer"
+                className="mt-1 block text-sm text-muted-foreground hover:text-primary"
+              >
+                {address}
+              </a>
             </div>
           </div>
           <div className="temple-card flex gap-3 p-5">
             <Phone className="h-5 w-5 shrink-0 text-primary" />
             <div>
               <h2 className="text-base font-semibold text-maroon">Phone</h2>
-              <p className="mt-1 text-sm text-muted-foreground">{settings["phone"]}</p>
+              <a
+                href={telHref(phone)}
+                className="mt-1 block text-sm text-muted-foreground hover:text-primary"
+              >
+                {phone}
+              </a>
             </div>
           </div>
           <div className="temple-card flex gap-3 p-5">
             <Mail className="h-5 w-5 shrink-0 text-primary" />
             <div>
               <h2 className="text-base font-semibold text-maroon">Email</h2>
-              <p className="mt-1 text-sm text-muted-foreground">{settings["email"]}</p>
+              <a
+                href={`mailto:${email}`}
+                className="mt-1 block break-all text-sm text-muted-foreground hover:text-primary"
+              >
+                {email}
+              </a>
             </div>
           </div>
         </div>
