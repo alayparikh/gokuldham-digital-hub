@@ -1,0 +1,114 @@
+- generic [active] [ref=f9e1]:
+    - generic [ref=f9e2]:
+        - banner [ref=f9e3]:
+            - generic [ref=f9e4]:
+                - link "ॐ Gokuldham Haveli Atlanta, GA" [ref=f9e5] [cursor=pointer]:
+                    - /url: /
+                    - generic [ref=f9e6]: ॐ
+                    - generic [ref=f9e8]:
+                        - generic [ref=f9e9]: Gokuldham Haveli
+                        - generic [ref=f9e10]: Atlanta, GA
+                - navigation [ref=f9e11]:
+                    - link "Home" [ref=f9e12] [cursor=pointer]:
+                        - /url: /
+                    - link "About Us" [ref=f9e13] [cursor=pointer]:
+                        - /url: /about
+                    - link "Calendar" [ref=f9e14] [cursor=pointer]:
+                        - /url: /events
+                    - link "Live" [ref=f9e15] [cursor=pointer]:
+                        - /url: /live
+                    - link "Bhajans" [ref=f9e16] [cursor=pointer]:
+                        - /url: /bhajans
+                    - link "Gallery" [ref=f9e17] [cursor=pointer]:
+                        - /url: /gallery
+                    - link "Blog" [ref=f9e18] [cursor=pointer]:
+                        - /url: /blog
+                    - link "Contact Us" [ref=f9e19] [cursor=pointer]:
+                        - /url: /contact
+                - link "Donate" [ref=f9e21] [cursor=pointer]:
+                    - /url: /donate
+        - main [ref=f9e24]:
+            - generic [ref=f9e26]:
+                - heading "Donate & Seva" [level=1] [ref=f9e27]
+                - generic [ref=f9e28]: ✦
+                - paragraph [ref=f9e32]: Every contribution, large or small, keeps our traditions alive and thriving. Donate today to be part of this sacred journey.
+            - generic [ref=f9e33]:
+                - generic [ref=f9e34]:
+                    - button "donation" [ref=f9e35]
+                    - button "seva" [ref=f9e36]
+                - generic [ref=f9e37]:
+                    - generic [ref=f9e38]:
+                        - button [ref=f9e39]:
+                            - img "General Donation" [ref=f9e40]
+                            - generic [ref=f9e41]:
+                                - heading "General Donation" [level=2] [ref=f9e42]
+                                - paragraph [ref=f9e43]: Your contribution helps preserve the spiritual and community mission of Gokuldham Temple.
+                                - paragraph [ref=f9e44]: Suggested $51
+                        - button [ref=f9e45]:
+                            - img "Support Programs" [ref=f9e46]
+                            - generic [ref=f9e47]:
+                                - heading "Support Programs" [level=2] [ref=f9e48]
+                                - paragraph [ref=f9e49]: Help fund educational, youth, and social initiatives that carry our values forward.
+                                - paragraph [ref=f9e50]: Suggested $51
+                        - button [ref=f9e51]:
+                            - img "Haveli Building" [ref=f9e52]
+                            - generic [ref=f9e53]:
+                                - heading "Haveli Building" [level=2] [ref=f9e54]
+                                - paragraph [ref=f9e55]: Support the construction of essential spaces like the Haveli, Prasad Ghar, and ritual areas.
+                                - paragraph [ref=f9e56]: Suggested $501
+                    - complementary [ref=f9e57]:
+                        - heading "General Donation" [level=2] [ref=f9e58]
+                        - paragraph [ref=f9e59]: Every contribution supports daily seva and the haveli community.
+                        - generic [ref=f9e60]:
+                            - button "One-time" [ref=f9e61]
+                            - button "Monthly" [ref=f9e62]
+                        - generic [ref=f9e63]:
+                            - button "$51" [ref=f9e64]
+                            - button "$101" [ref=f9e65]
+                            - button "$251" [ref=f9e66]
+                            - button "$501" [ref=f9e67]
+                            - button "$1001" [ref=f9e68]
+                        - textbox "Other amount (USD)" [ref=f9e69]
+                        - button "Donate $101" [ref=f9e70] [cursor=pointer]
+                        - paragraph [ref=f9e71]:
+                            - text: Prefer another way?
+                            - link "Contact us" [ref=f9e72] [cursor=pointer]:
+                                - /url: /contact
+                            - text: for check or bank transfer details.
+        - contentinfo [ref=f9e73]:
+            - generic [ref=f9e74]:
+                - generic [ref=f9e75]:
+                    - heading "Gokuldham Haveli" [level=3] [ref=f9e76]
+                    - paragraph [ref=f9e77]: મારું ગોકુલધામ, તારું ગોકુલધામ આપણું ગોકુલધામ
+                    - paragraph [ref=f9e78]: A Pushtimarg Vaishnav haveli in Atlanta, Georgia devoted to the seva of Shri Gokulnathji — daily darshan, utsav, satsang and community service.
+                - generic [ref=f9e79]:
+                    - heading "Explore" [level=4] [ref=f9e80]
+                    - list [ref=f9e81]:
+                        - listitem [ref=f9e82]:
+                            - link "About Us" [ref=f9e83] [cursor=pointer]:
+                                - /url: /about
+                        - listitem [ref=f9e84]:
+                            - link "Events & Utsav" [ref=f9e85] [cursor=pointer]:
+                                - /url: /events
+                        - listitem [ref=f9e86]:
+                            - link "Live Darshan" [ref=f9e87] [cursor=pointer]:
+                                - /url: /live
+                        - listitem [ref=f9e88]:
+                            - link "Bhajans" [ref=f9e89] [cursor=pointer]:
+                                - /url: /bhajans
+                        - listitem [ref=f9e90]:
+                            - link "Donate & Seva" [ref=f9e91] [cursor=pointer]:
+                                - /url: /donate
+                - generic [ref=f9e92]:
+                    - heading "Contact" [level=4] [ref=f9e93]
+                    - list [ref=f9e94]:
+                        - listitem [ref=f9e95]:
+                            - generic [ref=f9e99]: Atlanta, GA
+                        - listitem [ref=f9e100]
+                        - listitem [ref=f9e103]:
+                            - generic [ref=f9e107]: info@gokuldham.org
+            - generic [ref=f9e109]:
+                - paragraph [ref=f9e110]: © 2026 Gokuldham Haveli, Atlanta. All rights reserved.
+                - link "Admin" [ref=f9e111] [cursor=pointer]:
+                    - /url: /admin
+    - region "Notifications alt+T"

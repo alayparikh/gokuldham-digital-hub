@@ -15,7 +15,8 @@ export const Route = createFileRoute("/about")({
       { property: "og:title", content: "About Gokuldham Haveli Atlanta" },
       {
         property: "og:description",
-        content: "Our Pushtimarg Vaishnav tradition, seva, community and vision in Atlanta, Georgia.",
+        content:
+          "Our Pushtimarg Vaishnav tradition, seva, community and vision in Atlanta, Georgia.",
       },
     ],
   }),

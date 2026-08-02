@@ -23,7 +23,13 @@ type TableName = (typeof TABLES)[number];
 type Json = string | number | boolean | null | Json[] | { [k: string]: Json };
 type Row = Record<string, Json>;
 
-async function assertAdmin(context: { supabase: any; userId: string }) {
+// Supabase types `.from()` per literal table name. These handlers take the table as
+// input, so the builder types collapse to never across the union — admin CRUD goes
+// through a deliberately loose client instead.
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+type LooseSupabase = any;
+
+async function assertAdmin(context: { supabase: LooseSupabase; userId: string }) {
   const { data, error } = await context.supabase.rpc("has_role", {
     _user_id: context.userId,
     _role: "admin",
@@ -44,7 +50,7 @@ export const adminWhoAmI = createServerFn({ method: "GET" })
 
 export const adminList = createServerFn({ method: "POST" })
   .middleware([requireSupabaseAuth])
-  .inputValidator((data: unknown) =>
+  .validator((data: unknown) =>
     z
       .object({
         table: tableSchema,
@@ -55,7 +61,7 @@ export const adminList = createServerFn({ method: "POST" })
   )
   .handler(async ({ data, context }) => {
     await assertAdmin(context);
-    const sb = context.supabase as any;
+    const sb = context.supabase as LooseSupabase;
     let q = sb.from(data.table as TableName).select("*");
     if (data.orderBy) q = q.order(data.orderBy, { ascending: data.ascending ?? true });
     const { data: rows, error } = await q;
@@ -65,12 +71,12 @@ export const adminList = createServerFn({ method: "POST" })
 
 export const adminUpsert = createServerFn({ method: "POST" })
   .middleware([requireSupabaseAuth])
-  .inputValidator((data: unknown) =>
+  .validator((data: unknown) =>
     z.object({ table: tableSchema, row: z.record(z.string(), z.any()) }).parse(data),
   )
   .handler(async ({ data, context }) => {
     await assertAdmin(context);
-    const sb = context.supabase as any;
+    const sb = context.supabase as LooseSupabase;
     const { data: row, error } = await sb
       .from(data.table as TableName)
       .upsert(data.row)
@@ -82,12 +88,10 @@ export const adminUpsert = createServerFn({ method: "POST" })
 
 export const adminDelete = createServerFn({ method: "POST" })
   .middleware([requireSupabaseAuth])
-  .inputValidator((data: unknown) =>
-    z.object({ table: tableSchema, id: z.string().min(1) }).parse(data),
-  )
+  .validator((data: unknown) => z.object({ table: tableSchema, id: z.string().min(1) }).parse(data))
   .handler(async ({ data, context }) => {
     await assertAdmin(context);
-    const sb = context.supabase as any;
+    const sb = context.supabase as LooseSupabase;
     const { error } = await sb
       .from(data.table as TableName)
       .delete()
@@ -98,12 +102,12 @@ export const adminDelete = createServerFn({ method: "POST" })
 
 export const adminSaveSetting = createServerFn({ method: "POST" })
   .middleware([requireSupabaseAuth])
-  .inputValidator((data: unknown) =>
+  .validator((data: unknown) =>
     z.object({ key: z.string().min(1).max(80), value: z.string().max(5000) }).parse(data),
   )
   .handler(async ({ data, context }) => {
     await assertAdmin(context);
-    const sb = context.supabase as any;
+    const sb = context.supabase as LooseSupabase;
     const { error } = await sb
       .from("site_settings")
       .upsert({ key: data.key, value: data.value }, { onConflict: "key" });

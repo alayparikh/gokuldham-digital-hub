@@ -39,7 +39,8 @@ function BhajansPage() {
       <section className="mx-auto max-w-6xl px-4 py-12">
         {items.length === 0 ? (
           <p className="py-16 text-center text-sm text-muted-foreground">
-            No bhajans have been added yet. Add YouTube videos from the admin panel and they appear here.
+            No bhajans have been added yet. Add YouTube videos from the admin panel and they appear
+            here.
           </p>
         ) : (
           <div className="grid gap-8 lg:grid-cols-[2fr_1fr]">

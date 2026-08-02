@@ -85,7 +85,12 @@ function DonatePage() {
                 }`}
               >
                 {c.image_url ? (
-                  <img src={c.image_url} alt={c.name} loading="lazy" className="h-36 w-full object-cover" />
+                  <img
+                    src={c.image_url}
+                    alt={c.name}
+                    loading="lazy"
+                    className="h-36 w-full object-cover"
+                  />
                 ) : (
                   <div className="h-36 w-full bg-accent" />
                 )}
@@ -119,7 +124,9 @@ function DonatePage() {
                   key={o.l}
                   onClick={() => setRecurring(o.k)}
                   className={`flex-1 rounded-full px-3 py-1.5 text-sm font-medium ${
-                    recurring === o.k ? "bg-background text-foreground shadow-sm" : "text-muted-foreground"
+                    recurring === o.k
+                      ? "bg-background text-foreground shadow-sm"
+                      : "text-muted-foreground"
                   }`}
                 >
                   {o.l}

@@ -11,7 +11,8 @@ export const Route = createFileRoute("/gallery")({
       { title: "Photo Gallery — Gokuldham Haveli Atlanta" },
       {
         name: "description",
-        content: "Photographs of darshan, utsav and community celebrations at Gokuldham Haveli, Atlanta.",
+        content:
+          "Photographs of darshan, utsav and community celebrations at Gokuldham Haveli, Atlanta.",
       },
       { property: "og:title", content: "Photo Gallery — Gokuldham Haveli Atlanta" },
       {
@@ -86,7 +87,11 @@ function GalleryPage() {
           >
             <X className="h-5 w-5" />
           </button>
-          <img src={lightbox} alt="" className="max-h-[85vh] max-w-full rounded-xl object-contain" />
+          <img
+            src={lightbox}
+            alt=""
+            className="max-h-[85vh] max-w-full rounded-xl object-contain"
+          />
         </div>
       ) : null}
     </>

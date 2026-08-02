@@ -1,0 +1,78 @@
+- generic [active] [ref=f16e1]:
+    - generic [ref=f16e2]:
+        - banner [ref=f16e3]:
+            - generic [ref=f16e4]:
+                - link "ॐ Gokuldham Haveli Atlanta, GA" [ref=f16e5] [cursor=pointer]:
+                    - /url: /
+                    - generic [ref=f16e6]: ॐ
+                    - generic [ref=f16e8]:
+                        - generic [ref=f16e9]: Gokuldham Haveli
+                        - generic [ref=f16e10]: Atlanta, GA
+                - navigation [ref=f16e11]:
+                    - link "Home" [ref=f16e12] [cursor=pointer]:
+                        - /url: /
+                    - link "About Us" [ref=f16e13] [cursor=pointer]:
+                        - /url: /about
+                    - link "Calendar" [ref=f16e14] [cursor=pointer]:
+                        - /url: /events
+                    - link "Live" [ref=f16e15] [cursor=pointer]:
+                        - /url: /live
+                    - link "Bhajans" [ref=f16e16] [cursor=pointer]:
+                        - /url: /bhajans
+                    - link "Gallery" [ref=f16e17] [cursor=pointer]:
+                        - /url: /gallery
+                    - link "Blog" [ref=f16e18] [cursor=pointer]:
+                        - /url: /blog
+                    - link "Contact Us" [ref=f16e19] [cursor=pointer]:
+                        - /url: /contact
+                - link "Donate" [ref=f16e21] [cursor=pointer]:
+                    - /url: /donate
+        - main [ref=f16e24]:
+            - article [ref=f16e25]:
+                - link "All stories" [ref=f16e26] [cursor=pointer]:
+                    - /url: /blog
+                - heading "શ્રીમદ્ વલ્લભાચાર્યજીનો દાર્શનિક સિદ્ધાંત – શુદ્ધાદ્વૈત બ્રહ્મવાદ" [level=1] [ref=f16e29]
+                - paragraph [ref=f16e30]: August 2, 2026
+                - img "શ્રીમદ્ વલ્લભાચાર્યજીનો દાર્શનિક સિદ્ધાંત – શુદ્ધાદ્વૈત બ્રહ્મવાદ" [ref=f16e31]
+                - generic [ref=f16e32]:
+                    - paragraph [ref=f16e33]: શ્રીમદ્ વલ્લભાચાર્ય મહાપ્રભુજી દ્વારા પ્રતિપાદિત દાર્શનિક સિદ્ધાંત “શુદ્ધાદ્વૈત બ્રહ્મવાદ” તરીકે પ્રસિદ્ધ છે. આ સિદ્ધાંત શ્રી શંકરાચાર્યના કેવલાદ્વૈત અને શ્રી રામાનુજાચાર્યના વિશિષ્ટાદ્વૈતથી અલગ અને અનોખો છે.
+                    - paragraph [ref=f16e34]: "“શુદ્ધાદ્વૈત”નો અર્થ છે: બ્રહ્મ શુદ્ધ છે, જીવ શુદ્ધ છે, જગત પણ શુદ્ધ છે, અને આ બધું બ્રહ્મથી અભિન્ન છે."
+                    - paragraph [ref=f16e35]: શ્રી મહાપ્રભુજીના મત અનુસાર બ્રહ્મ, જીવ અને જગત માયિક કે મિથ્યા નથી, પરંતુ સત્ય અને પરમાત્મારૂપ છે. તેમણે વેદ, ભગવદ્ ગીતા, બ્રહ્મસૂત્ર અને શ્રીમદ્ ભાગવત — આ ચાર પ્રમાણોને સ્વીકાર્યા છે.
+                    - paragraph [ref=f16e36]: ભગવાન શ્રીકૃષ્ણ જ પૂર્ણ પુરુષોત્તમ પરબ્રહ્મ છે. જગત સત્ય છે, જીવ ભગવાનનો અંશ છે, અને ભક્તિ તથા સેવા જીવનનું પરમ લક્ષ્ય છે.
+        - contentinfo [ref=f16e37]:
+            - generic [ref=f16e38]:
+                - generic [ref=f16e39]:
+                    - heading "Gokuldham Haveli" [level=3] [ref=f16e40]
+                    - paragraph [ref=f16e41]: મારું ગોકુલધામ, તારું ગોકુલધામ આપણું ગોકુલધામ
+                    - paragraph [ref=f16e42]: A Pushtimarg Vaishnav haveli in Atlanta, Georgia devoted to the seva of Shri Gokulnathji — daily darshan, utsav, satsang and community service.
+                - generic [ref=f16e43]:
+                    - heading "Explore" [level=4] [ref=f16e44]
+                    - list [ref=f16e45]:
+                        - listitem [ref=f16e46]:
+                            - link "About Us" [ref=f16e47] [cursor=pointer]:
+                                - /url: /about
+                        - listitem [ref=f16e48]:
+                            - link "Events & Utsav" [ref=f16e49] [cursor=pointer]:
+                                - /url: /events
+                        - listitem [ref=f16e50]:
+                            - link "Live Darshan" [ref=f16e51] [cursor=pointer]:
+                                - /url: /live
+                        - listitem [ref=f16e52]:
+                            - link "Bhajans" [ref=f16e53] [cursor=pointer]:
+                                - /url: /bhajans
+                        - listitem [ref=f16e54]:
+                            - link "Donate & Seva" [ref=f16e55] [cursor=pointer]:
+                                - /url: /donate
+                - generic [ref=f16e56]:
+                    - heading "Contact" [level=4] [ref=f16e57]
+                    - list [ref=f16e58]:
+                        - listitem [ref=f16e59]:
+                            - generic [ref=f16e63]: Atlanta, GA
+                        - listitem [ref=f16e64]
+                        - listitem [ref=f16e67]:
+                            - generic [ref=f16e71]: info@gokuldham.org
+            - generic [ref=f16e73]:
+                - paragraph [ref=f16e74]: © 2026 Gokuldham Haveli, Atlanta. All rights reserved.
+                - link "Admin" [ref=f16e75] [cursor=pointer]:
+                    - /url: /admin
+    - region "Notifications alt+T"

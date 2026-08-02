@@ -42,7 +42,12 @@ function BlogPage() {
               className="temple-card overflow-hidden transition-transform hover:-translate-y-1"
             >
               {p.image_url ? (
-                <img src={p.image_url} alt={p.title} loading="lazy" className="h-48 w-full object-cover" />
+                <img
+                  src={p.image_url}
+                  alt={p.title}
+                  loading="lazy"
+                  className="h-48 w-full object-cover"
+                />
               ) : null}
               <div className="p-5">
                 <h2 className="gu text-base font-semibold text-maroon">{p.title}</h2>

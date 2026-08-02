@@ -147,8 +147,16 @@
     color: var(--color-foreground);
     font-family: var(--font-sans);
     background-image:
-      radial-gradient(circle at 12% 8%, color-mix(in oklab, var(--gold) 22%, transparent), transparent 45%),
-      radial-gradient(circle at 88% 4%, color-mix(in oklab, var(--saffron) 14%, transparent), transparent 40%);
+      radial-gradient(
+        circle at 12% 8%,
+        color-mix(in oklab, var(--gold) 22%, transparent),
+        transparent 45%
+      ),
+      radial-gradient(
+        circle at 88% 4%,
+        color-mix(in oklab, var(--saffron) 14%, transparent),
+        transparent 40%
+      );
     background-attachment: fixed;
   }
 

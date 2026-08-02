@@ -1,0 +1,90 @@
+- generic [active] [ref=f10e1]:
+    - generic [ref=f10e2]:
+        - banner [ref=f10e3]:
+            - generic [ref=f10e4]:
+                - link "ॐ Gokuldham Haveli Atlanta, GA" [ref=f10e5] [cursor=pointer]:
+                    - /url: /
+                    - generic [ref=f10e6]: ॐ
+                    - generic [ref=f10e8]:
+                        - generic [ref=f10e9]: Gokuldham Haveli
+                        - generic [ref=f10e10]: Atlanta, GA
+                - navigation [ref=f10e11]:
+                    - link "Home" [ref=f10e12] [cursor=pointer]:
+                        - /url: /
+                    - link "About Us" [ref=f10e13] [cursor=pointer]:
+                        - /url: /about
+                    - link "Calendar" [ref=f10e14] [cursor=pointer]:
+                        - /url: /events
+                    - link "Live" [ref=f10e15] [cursor=pointer]:
+                        - /url: /live
+                    - link "Bhajans" [ref=f10e16] [cursor=pointer]:
+                        - /url: /bhajans
+                    - link "Gallery" [ref=f10e17] [cursor=pointer]:
+                        - /url: /gallery
+                    - link "Blog" [ref=f10e18] [cursor=pointer]:
+                        - /url: /blog
+                    - link "Contact Us" [ref=f10e19] [cursor=pointer]:
+                        - /url: /contact
+                - link "Donate" [ref=f10e21] [cursor=pointer]:
+                    - /url: /donate
+        - main [ref=f10e24]:
+            - generic [ref=f10e26]:
+                - heading "Stories of Gokuldham" [level=1] [ref=f10e27]
+                - generic [ref=f10e28]: ✦
+                - paragraph [ref=f10e32]: Inspiring discourses, cultural highlights and moments of devotion.
+            - generic [ref=f10e34]:
+                - link [ref=f10e35] [cursor=pointer]:
+                    - /url: /blog/philosophy
+                    - img "શ્રીમદ્ વલ્લભાચાર્યજીનો દાર્શનિક સિદ્ધાંત – શુદ્ધાદ્વૈત બ્રહ્મવાદ" [ref=f10e36]
+                    - generic [ref=f10e37]:
+                        - heading "શ્રીમદ્ વલ્લભાચાર્યજીનો દાર્શનિક સિદ્ધાંત – શુદ્ધાદ્વૈત બ્રહ્મવાદ" [level=2] [ref=f10e38]
+                        - paragraph [ref=f10e39]: શ્રીમદ્ વલ્લભાચાર્ય મહાપ્રભુજી દ્વારા પ્રતિપાદિત દાર્શનિક સિદ્ધાંત “શુદ્ધાદ્વૈત બ્રહ્મવાદ” તરીકે પ્રસિદ્ધ છે.
+                - link [ref=f10e40] [cursor=pointer]:
+                    - /url: /blog/shree-yamunaji
+                    - img "શ્રી યમુનાજી – ભક્તિની પ્રવાહિની" [ref=f10e41]
+                    - generic [ref=f10e42]:
+                        - heading "શ્રી યમુનાજી – ભક્તિની પ્રવાહિની" [level=2] [ref=f10e43]
+                        - paragraph [ref=f10e44]: પુષ્ટિમાર્ગમાં શ્રી યમુનાજીનું સ્થાન અને તેમની કૃપાનું મહત્વ.
+                - link [ref=f10e45] [cursor=pointer]:
+                    - /url: /blog/shrivallabhmahaprabhuji
+                    - img "શ્રી વલ્લભાચાર્ય મહાપ્રભુજી" [ref=f10e46]
+                    - generic [ref=f10e47]:
+                        - heading "શ્રી વલ્લભાચાર્ય મહાપ્રભુજી" [level=2] [ref=f10e48]
+                        - paragraph [ref=f10e49]: પુષ્ટિમાર્ગના સંસ્થાપક શ્રી વલ્લભાચાર્યજીનું જીવન અને સંદેશ.
+        - contentinfo [ref=f10e50]:
+            - generic [ref=f10e51]:
+                - generic [ref=f10e52]:
+                    - heading "Gokuldham Haveli" [level=3] [ref=f10e53]
+                    - paragraph [ref=f10e54]: મારું ગોકુલધામ, તારું ગોકુલધામ આપણું ગોકુલધામ
+                    - paragraph [ref=f10e55]: A Pushtimarg Vaishnav haveli in Atlanta, Georgia devoted to the seva of Shri Gokulnathji — daily darshan, utsav, satsang and community service.
+                - generic [ref=f10e56]:
+                    - heading "Explore" [level=4] [ref=f10e57]
+                    - list [ref=f10e58]:
+                        - listitem [ref=f10e59]:
+                            - link "About Us" [ref=f10e60] [cursor=pointer]:
+                                - /url: /about
+                        - listitem [ref=f10e61]:
+                            - link "Events & Utsav" [ref=f10e62] [cursor=pointer]:
+                                - /url: /events
+                        - listitem [ref=f10e63]:
+                            - link "Live Darshan" [ref=f10e64] [cursor=pointer]:
+                                - /url: /live
+                        - listitem [ref=f10e65]:
+                            - link "Bhajans" [ref=f10e66] [cursor=pointer]:
+                                - /url: /bhajans
+                        - listitem [ref=f10e67]:
+                            - link "Donate & Seva" [ref=f10e68] [cursor=pointer]:
+                                - /url: /donate
+                - generic [ref=f10e69]:
+                    - heading "Contact" [level=4] [ref=f10e70]
+                    - list [ref=f10e71]:
+                        - listitem [ref=f10e72]:
+                            - generic [ref=f10e76]: Atlanta, GA
+                        - listitem [ref=f10e77]
+                        - listitem [ref=f10e80]:
+                            - generic [ref=f10e84]: info@gokuldham.org
+            - generic [ref=f10e86]:
+                - paragraph [ref=f10e87]: © 2026 Gokuldham Haveli, Atlanta. All rights reserved.
+                - link "Admin" [ref=f10e88] [cursor=pointer]:
+                    - /url: /admin
+    - region "Notifications alt+T"

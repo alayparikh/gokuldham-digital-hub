@@ -1,7 +1,15 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useSuspenseQuery } from "@tanstack/react-query";
 import { useEffect, useState } from "react";
-import { Sun, Moon, Crown, HandHeart, UtensilsCrossed, CalendarDays, ArrowRight } from "lucide-react";
+import {
+  Sun,
+  Moon,
+  Crown,
+  HandHeart,
+  UtensilsCrossed,
+  CalendarDays,
+  ArrowRight,
+} from "lucide-react";
 import { homeQuery } from "@/lib/queries";
 import { SectionHeading } from "@/components/site/SectionHeading";
 
@@ -17,7 +25,8 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: "Gokuldham Haveli Atlanta" },
       {
         property: "og:description",
-        content: "Daily darshan timings, utsav calendar, live darshan and seva at Gokuldham Haveli, Atlanta.",
+        content:
+          "Daily darshan timings, utsav calendar, live darshan and seva at Gokuldham Haveli, Atlanta.",
       },
     ],
   }),

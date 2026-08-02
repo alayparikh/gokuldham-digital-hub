@@ -17,7 +17,7 @@ export const getEvents = createServerFn({ method: "GET" }).handler(async () => {
 });
 
 export const getEvent = createServerFn({ method: "GET" })
-  .inputValidator((data: { slug: string }) => z.object({ slug: z.string() }).parse(data))
+  .validator((data: { slug: string }) => z.object({ slug: z.string() }).parse(data))
   .handler(async ({ data }) => {
     const { fetchEvent } = await import("./public-content.server");
     return fetchEvent(data.slug);
@@ -29,7 +29,7 @@ export const getPosts = createServerFn({ method: "GET" }).handler(async () => {
 });
 
 export const getPost = createServerFn({ method: "GET" })
-  .inputValidator((data: { slug: string }) => z.object({ slug: z.string() }).parse(data))
+  .validator((data: { slug: string }) => z.object({ slug: z.string() }).parse(data))
   .handler(async ({ data }) => {
     const { fetchPost } = await import("./public-content.server");
     return fetchPost(data.slug);
@@ -51,7 +51,7 @@ export const getGallery = createServerFn({ method: "GET" }).handler(async () => 
 });
 
 export const sendContactMessage = createServerFn({ method: "POST" })
-  .inputValidator((data: unknown) =>
+  .validator((data: unknown) =>
     z
       .object({
         name: z.string().min(1).max(120),

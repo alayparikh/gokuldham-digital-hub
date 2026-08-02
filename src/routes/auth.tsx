@@ -2,7 +2,6 @@ import { createFileRoute, useNavigate } from "@tanstack/react-router";
 import { useState } from "react";
 import { toast } from "sonner";
 import { supabase } from "@/integrations/supabase/client";
-import { lovable } from "@/integrations/lovable/index";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { PageHeader } from "@/components/site/SectionHeading";
@@ -14,7 +13,10 @@ export const Route = createFileRoute("/auth")({
       { name: "description", content: "Sign in to manage Gokuldham Haveli website content." },
       { name: "robots", content: "noindex" },
       { property: "og:title", content: "Sign In — Gokuldham Haveli" },
-      { property: "og:description", content: "Sign in to manage Gokuldham Haveli website content." },
+      {
+        property: "og:description",
+        content: "Sign in to manage Gokuldham Haveli website content.",
+      },
     ],
   }),
   component: AuthPage,
@@ -52,16 +54,17 @@ function AuthPage() {
     }
   }
 
+  // Requires the Google provider to be enabled in the Supabase dashboard
+  // (Authentication → Providers) with this site's URL in the allowed redirect list.
   async function onGoogle() {
-    const result = await lovable.auth.signInWithOAuth("google", {
-      redirect_uri: window.location.origin,
+    const { error } = await supabase.auth.signInWithOAuth({
+      provider: "google",
+      options: { redirectTo: window.location.origin + "/admin" },
     });
-    if (result.error) {
+    if (error) {
       toast.error("Google sign-in failed. Please try again.");
-      return;
     }
-    if (result.redirected) return;
-    navigate({ to: "/admin" });
+    // On success Supabase navigates away to Google; nothing further to do here.
   }
 
   return (

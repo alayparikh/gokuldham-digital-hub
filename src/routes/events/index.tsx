@@ -16,7 +16,8 @@ export const Route = createFileRoute("/events/")({
       { property: "og:title", content: "Events & Utsav Calendar — Gokuldham Haveli" },
       {
         property: "og:description",
-        content: "Upcoming utsavs, festivals and community gatherings at Gokuldham Haveli, Atlanta.",
+        content:
+          "Upcoming utsavs, festivals and community gatherings at Gokuldham Haveli, Atlanta.",
       },
     ],
   }),
@@ -43,7 +44,12 @@ function EventsPage() {
               className="temple-card overflow-hidden transition-transform hover:-translate-y-1"
             >
               {e.image_url ? (
-                <img src={e.image_url} alt={e.title} loading="lazy" className="h-52 w-full object-cover" />
+                <img
+                  src={e.image_url}
+                  alt={e.title}
+                  loading="lazy"
+                  className="h-52 w-full object-cover"
+                />
               ) : null}
               <div className="p-5">
                 {e.starts_at ? (

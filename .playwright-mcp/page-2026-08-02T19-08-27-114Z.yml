@@ -1,0 +1,77 @@
+- generic [active] [ref=f1e1]:
+    - generic [ref=f1e2]:
+        - banner [ref=f1e3]:
+            - generic [ref=f1e4]:
+                - link "ॐ Gokuldham Haveli Atlanta, GA" [ref=f1e5] [cursor=pointer]:
+                    - /url: /
+                    - generic [ref=f1e6]: ॐ
+                    - generic [ref=f1e8]:
+                        - generic [ref=f1e9]: Gokuldham Haveli
+                        - generic [ref=f1e10]: Atlanta, GA
+                - navigation [ref=f1e11]:
+                    - link "Home" [ref=f1e12] [cursor=pointer]:
+                        - /url: /
+                    - link "About Us" [ref=f1e13] [cursor=pointer]:
+                        - /url: /about
+                    - link "Calendar" [ref=f1e14] [cursor=pointer]:
+                        - /url: /events
+                    - link "Live" [ref=f1e15] [cursor=pointer]:
+                        - /url: /live
+                    - link "Bhajans" [ref=f1e16] [cursor=pointer]:
+                        - /url: /bhajans
+                    - link "Gallery" [ref=f1e17] [cursor=pointer]:
+                        - /url: /gallery
+                    - link "Blog" [ref=f1e18] [cursor=pointer]:
+                        - /url: /blog
+                    - link "Contact Us" [ref=f1e19] [cursor=pointer]:
+                        - /url: /contact
+                - link "Donate" [ref=f1e21] [cursor=pointer]:
+                    - /url: /donate
+        - main [ref=f1e24]:
+            - generic [ref=f1e26]:
+                - heading "Sign In" [level=1] [ref=f1e27]
+                - generic [ref=f1e28]: ✦
+                - paragraph [ref=f1e32]: Access the Gokuldham content admin.
+            - generic [ref=f1e34]:
+                - textbox "Email" [ref=f1e35]
+                - textbox "Password" [ref=f1e36]
+                - button "Sign in" [ref=f1e37] [cursor=pointer]
+                - button "Continue with Google" [ref=f1e38] [cursor=pointer]
+                - button "Need an account? Sign up" [ref=f1e39]
+        - contentinfo [ref=f1e40]:
+            - generic [ref=f1e41]:
+                - generic [ref=f1e42]:
+                    - heading "Gokuldham Haveli" [level=3] [ref=f1e43]
+                    - paragraph [ref=f1e44]: મારું ગોકુલધામ, તારું ગોકુલધામ આપણું ગોકુલધામ
+                    - paragraph [ref=f1e45]: A Pushtimarg Vaishnav haveli in Atlanta, Georgia devoted to the seva of Shri Gokulnathji — daily darshan, utsav, satsang and community service.
+                - generic [ref=f1e46]:
+                    - heading "Explore" [level=4] [ref=f1e47]
+                    - list [ref=f1e48]:
+                        - listitem [ref=f1e49]:
+                            - link "About Us" [ref=f1e50] [cursor=pointer]:
+                                - /url: /about
+                        - listitem [ref=f1e51]:
+                            - link "Events & Utsav" [ref=f1e52] [cursor=pointer]:
+                                - /url: /events
+                        - listitem [ref=f1e53]:
+                            - link "Live Darshan" [ref=f1e54] [cursor=pointer]:
+                                - /url: /live
+                        - listitem [ref=f1e55]:
+                            - link "Bhajans" [ref=f1e56] [cursor=pointer]:
+                                - /url: /bhajans
+                        - listitem [ref=f1e57]:
+                            - link "Donate & Seva" [ref=f1e58] [cursor=pointer]:
+                                - /url: /donate
+                - generic [ref=f1e59]:
+                    - heading "Contact" [level=4] [ref=f1e60]
+                    - list [ref=f1e61]:
+                        - listitem [ref=f1e62]:
+                            - generic [ref=f1e66]: Atlanta, GA
+                        - listitem [ref=f1e67]
+                        - listitem [ref=f1e70]:
+                            - generic [ref=f1e74]: info@gokuldham.org
+            - generic [ref=f1e76]:
+                - paragraph [ref=f1e77]: © 2026 Gokuldham Haveli, Atlanta. All rights reserved.
+                - link "Admin" [ref=f1e78] [cursor=pointer]:
+                    - /url: /admin
+    - region "Notifications alt+T"

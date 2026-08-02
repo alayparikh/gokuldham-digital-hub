@@ -12,7 +12,10 @@ export const Route = createFileRoute("/blog/$slug")({
   head: ({ loaderData }) => {
     if (!loaderData) {
       return {
-        meta: [{ title: "Post not found — Gokuldham Haveli" }, { name: "robots", content: "noindex" }],
+        meta: [
+          { title: "Post not found — Gokuldham Haveli" },
+          { name: "robots", content: "noindex" },
+        ],
       };
     }
     const title = `${loaderData.title} — Gokuldham Haveli`;

@@ -12,7 +12,10 @@ export const Route = createFileRoute("/events/$slug")({
   head: ({ loaderData }) => {
     if (!loaderData) {
       return {
-        meta: [{ title: "Event not found — Gokuldham Haveli" }, { name: "robots", content: "noindex" }],
+        meta: [
+          { title: "Event not found — Gokuldham Haveli" },
+          { name: "robots", content: "noindex" },
+        ],
       };
     }
     const title = `${loaderData.title} — Gokuldham Haveli Atlanta`;

@@ -23,7 +23,11 @@ export const Route = createFileRoute("/_authenticated/admin")({
   component: AdminPage,
 });
 
-type Field = { name: string; label: string; type?: "text" | "textarea" | "number" | "bool" | "list" };
+type Field = {
+  name: string;
+  label: string;
+  type?: "text" | "textarea" | "number" | "bool" | "list";
+};
 
 type Section = {
   table: string;
@@ -238,8 +242,8 @@ function AdminPage() {
       <div className="mx-auto max-w-lg px-4 py-24 text-center">
         <h1 className="text-2xl text-maroon">Admin access required</h1>
         <p className="mt-2 text-sm text-muted-foreground">
-          Your account is signed in but does not have the admin role yet. Ask an existing admin to grant
-          it.
+          Your account is signed in but does not have the admin role yet. Ask an existing admin to
+          grant it.
         </p>
         <Button
           className="mt-6 rounded-full"
@@ -352,7 +356,12 @@ function FieldInput({
     return (
       <label className="sm:col-span-2 block text-sm">
         <span className="text-muted-foreground">{field.label}</span>
-        <Textarea className="mt-1" rows={4} value={str} onChange={(e) => onChange(e.target.value)} />
+        <Textarea
+          className="mt-1"
+          rows={4}
+          value={str}
+          onChange={(e) => onChange(e.target.value)}
+        />
       </label>
     );
   }

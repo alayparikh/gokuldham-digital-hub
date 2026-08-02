@@ -12,8 +12,8 @@ export function Footer({ settings }: { settings?: Record<string, string> }) {
             {s["tagline_gu"] ?? "મારું ગોકુલધામ, તારું ગોકુલધામ આપણું ગોકુલધામ"}
           </p>
           <p className="mt-4 max-w-md text-sm text-muted-foreground">
-            A Pushtimarg Vaishnav haveli in Atlanta, Georgia devoted to the seva of Shri
-            Gokulnathji — daily darshan, utsav, satsang and community service.
+            A Pushtimarg Vaishnav haveli in Atlanta, Georgia devoted to the seva of Shri Gokulnathji
+            — daily darshan, utsav, satsang and community service.
           </p>
         </div>
 

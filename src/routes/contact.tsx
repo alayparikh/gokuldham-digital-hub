@@ -97,7 +97,13 @@ function ContactPage() {
             <Input name="phone" placeholder="Phone (optional)" maxLength={40} />
             <Input name="subject" placeholder="Subject (optional)" maxLength={200} />
           </div>
-          <Textarea name="message" placeholder="How can we help?" required rows={6} maxLength={4000} />
+          <Textarea
+            name="message"
+            placeholder="How can we help?"
+            required
+            rows={6}
+            maxLength={4000}
+          />
           <Button type="submit" disabled={busy} className="w-full rounded-full">
             {busy ? "Sending…" : "Send message"}
           </Button>

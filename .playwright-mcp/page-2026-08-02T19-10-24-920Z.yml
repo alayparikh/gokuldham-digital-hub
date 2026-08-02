@@ -1,0 +1,88 @@
+- generic [active] [ref=f7e1]:
+    - generic [ref=f7e2]:
+        - banner [ref=f7e3]:
+            - generic [ref=f7e4]:
+                - link "ॐ Gokuldham Haveli Atlanta, GA" [ref=f7e5] [cursor=pointer]:
+                    - /url: /
+                    - generic [ref=f7e6]: ॐ
+                    - generic [ref=f7e8]:
+                        - generic [ref=f7e9]: Gokuldham Haveli
+                        - generic [ref=f7e10]: Atlanta, GA
+                - navigation [ref=f7e11]:
+                    - link "Home" [ref=f7e12] [cursor=pointer]:
+                        - /url: /
+                    - link "About Us" [ref=f7e13] [cursor=pointer]:
+                        - /url: /about
+                    - link "Calendar" [ref=f7e14] [cursor=pointer]:
+                        - /url: /events
+                    - link "Live" [ref=f7e15] [cursor=pointer]:
+                        - /url: /live
+                    - link "Bhajans" [ref=f7e16] [cursor=pointer]:
+                        - /url: /bhajans
+                    - link "Gallery" [ref=f7e17] [cursor=pointer]:
+                        - /url: /gallery
+                    - link "Blog" [ref=f7e18] [cursor=pointer]:
+                        - /url: /blog
+                    - link "Contact Us" [ref=f7e19] [cursor=pointer]:
+                        - /url: /contact
+                - link "Donate" [ref=f7e21] [cursor=pointer]:
+                    - /url: /donate
+        - main [ref=f7e24]:
+            - generic [ref=f7e26]:
+                - heading "Gallery" [level=1] [ref=f7e27]
+                - generic [ref=f7e28]: ✦
+                - paragraph [ref=f7e32]: Moments of darshan, utsav and togetherness.
+            - generic [ref=f7e33]:
+                - generic [ref=f7e34]:
+                    - heading "Mangala Darshan" [level=2] [ref=f7e35]
+                    - paragraph [ref=f7e36]: August 2, 2026
+                    - generic [ref=f7e37]:
+                        - button [ref=f7e38]:
+                            - img "Mangala Darshan" [ref=f7e39]
+                        - button [ref=f7e40]:
+                            - img "Mangala Darshan" [ref=f7e41]
+                        - button [ref=f7e42]:
+                            - img "Mangala Darshan" [ref=f7e43]
+                        - button [ref=f7e44]:
+                            - img "Mangala Darshan" [ref=f7e45]
+                - generic [ref=f7e46]:
+                    - heading "Haveli Utsav" [level=2] [ref=f7e47]
+                    - paragraph [ref=f7e48]: August 2, 2026
+                    - paragraph [ref=f7e49]: No photos in this album yet.
+        - contentinfo [ref=f7e50]:
+            - generic [ref=f7e51]:
+                - generic [ref=f7e52]:
+                    - heading "Gokuldham Haveli" [level=3] [ref=f7e53]
+                    - paragraph [ref=f7e54]: મારું ગોકુલધામ, તારું ગોકુલધામ આપણું ગોકુલધામ
+                    - paragraph [ref=f7e55]: A Pushtimarg Vaishnav haveli in Atlanta, Georgia devoted to the seva of Shri Gokulnathji — daily darshan, utsav, satsang and community service.
+                - generic [ref=f7e56]:
+                    - heading "Explore" [level=4] [ref=f7e57]
+                    - list [ref=f7e58]:
+                        - listitem [ref=f7e59]:
+                            - link "About Us" [ref=f7e60] [cursor=pointer]:
+                                - /url: /about
+                        - listitem [ref=f7e61]:
+                            - link "Events & Utsav" [ref=f7e62] [cursor=pointer]:
+                                - /url: /events
+                        - listitem [ref=f7e63]:
+                            - link "Live Darshan" [ref=f7e64] [cursor=pointer]:
+                                - /url: /live
+                        - listitem [ref=f7e65]:
+                            - link "Bhajans" [ref=f7e66] [cursor=pointer]:
+                                - /url: /bhajans
+                        - listitem [ref=f7e67]:
+                            - link "Donate & Seva" [ref=f7e68] [cursor=pointer]:
+                                - /url: /donate
+                - generic [ref=f7e69]:
+                    - heading "Contact" [level=4] [ref=f7e70]
+                    - list [ref=f7e71]:
+                        - listitem [ref=f7e72]:
+                            - generic [ref=f7e76]: Atlanta, GA
+                        - listitem [ref=f7e77]
+                        - listitem [ref=f7e80]:
+                            - generic [ref=f7e84]: info@gokuldham.org
+            - generic [ref=f7e86]:
+                - paragraph [ref=f7e87]: © 2026 Gokuldham Haveli, Atlanta. All rights reserved.
+                - link "Admin" [ref=f7e88] [cursor=pointer]:
+                    - /url: /admin
+    - region "Notifications alt+T"

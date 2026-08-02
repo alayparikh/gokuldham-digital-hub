@@ -54,8 +54,8 @@ function LivePage() {
           ) : (
             <div className="flex aspect-video items-center justify-center bg-accent text-center text-sm text-accent-foreground">
               <span className="max-w-sm px-6">
-                A YouTube channel has not been configured yet. Add it from the admin panel to show the
-                live stream here.
+                A YouTube channel has not been configured yet. Add it from the admin panel to show
+                the live stream here.
               </span>
             </div>
           )}
@@ -84,7 +84,9 @@ function LivePage() {
                   <div className="p-4">
                     <h3 className="text-base text-maroon">{m.title}</h3>
                     {m.description ? (
-                      <p className="mt-1 line-clamp-2 text-sm text-muted-foreground">{m.description}</p>
+                      <p className="mt-1 line-clamp-2 text-sm text-muted-foreground">
+                        {m.description}
+                      </p>
                     ) : null}
                   </div>
                 </div>
