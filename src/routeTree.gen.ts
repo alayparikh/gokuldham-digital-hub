@@ -12,6 +12,8 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as BhajansRouteImport } from './routes/bhajans'
+import { Route as ContactRouteImport } from './routes/contact'
+import { Route as GalleryRouteImport } from './routes/gallery'
 import { Route as LiveRouteImport } from './routes/live'
 import { Route as BlogIndexRouteImport } from './routes/blog/index'
 import { Route as BlogSlugRouteImport } from './routes/blog/$slug'
@@ -31,6 +33,16 @@ const AboutRoute = AboutRouteImport.update({
 const BhajansRoute = BhajansRouteImport.update({
   id: '/bhajans',
   path: '/bhajans',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ContactRoute = ContactRouteImport.update({
+  id: '/contact',
+  path: '/contact',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GalleryRoute = GalleryRouteImport.update({
+  id: '/gallery',
+  path: '/gallery',
   getParentRoute: () => rootRouteImport,
 } as any)
 const LiveRoute = LiveRouteImport.update({
@@ -63,6 +75,8 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/bhajans': typeof BhajansRoute
+  '/contact': typeof ContactRoute
+  '/gallery': typeof GalleryRoute
   '/live': typeof LiveRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/events/$slug': typeof EventsSlugRoute
@@ -73,6 +87,8 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/bhajans': typeof BhajansRoute
+  '/contact': typeof ContactRoute
+  '/gallery': typeof GalleryRoute
   '/live': typeof LiveRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/events/$slug': typeof EventsSlugRoute
@@ -84,6 +100,8 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/bhajans': typeof BhajansRoute
+  '/contact': typeof ContactRoute
+  '/gallery': typeof GalleryRoute
   '/live': typeof LiveRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/events/$slug': typeof EventsSlugRoute
@@ -96,6 +114,8 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/bhajans'
+    | '/contact'
+    | '/gallery'
     | '/live'
     | '/blog/$slug'
     | '/events/$slug'
@@ -106,6 +126,8 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/bhajans'
+    | '/contact'
+    | '/gallery'
     | '/live'
     | '/blog/$slug'
     | '/events/$slug'
@@ -116,6 +138,8 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/bhajans'
+    | '/contact'
+    | '/gallery'
     | '/live'
     | '/blog/$slug'
     | '/events/$slug'
@@ -127,6 +151,8 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
   BhajansRoute: typeof BhajansRoute
+  ContactRoute: typeof ContactRoute
+  GalleryRoute: typeof GalleryRoute
   LiveRoute: typeof LiveRoute
   BlogSlugRoute: typeof BlogSlugRoute
   EventsSlugRoute: typeof EventsSlugRoute
@@ -155,6 +181,20 @@ declare module '@tanstack/react-router' {
       path: '/bhajans'
       fullPath: '/bhajans'
       preLoaderRoute: typeof BhajansRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/contact': {
+      id: '/contact'
+      path: '/contact'
+      fullPath: '/contact'
+      preLoaderRoute: typeof ContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/gallery': {
+      id: '/gallery'
+      path: '/gallery'
+      fullPath: '/gallery'
+      preLoaderRoute: typeof GalleryRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/live': {
@@ -199,6 +239,8 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
   BhajansRoute: BhajansRoute,
+  ContactRoute: ContactRoute,
+  GalleryRoute: GalleryRoute,
   LiveRoute: LiveRoute,
   BlogSlugRoute: BlogSlugRoute,
   EventsSlugRoute: EventsSlugRoute,
