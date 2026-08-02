@@ -92,9 +92,9 @@ function DonatePage() {
                 <div className="p-4">
                   <h2 className="text-lg text-maroon">{c.name}</h2>
                   <p className="mt-1 line-clamp-3 text-sm text-muted-foreground">{c.description}</p>
-                  {c.suggested_amount ? (
+                  {c.suggested_amounts?.length ? (
                     <p className="mt-2 text-sm font-semibold text-primary">
-                      Suggested ${c.suggested_amount}
+                      Suggested ${c.suggested_amounts[0]}
                     </p>
                   ) : null}
                 </div>
