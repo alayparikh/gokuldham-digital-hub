@@ -20,6 +20,8 @@ const TABLES = [
 
 const tableSchema = z.enum(TABLES);
 type TableName = (typeof TABLES)[number];
+type Json = string | number | boolean | null | Json[] | { [k: string]: Json };
+type Row = Record<string, Json>;
 
 async function assertAdmin(context: { supabase: any; userId: string }) {
   const { data, error } = await context.supabase.rpc("has_role", {
@@ -53,27 +55,29 @@ export const adminList = createServerFn({ method: "POST" })
   )
   .handler(async ({ data, context }) => {
     await assertAdmin(context);
-    let q = context.supabase.from(data.table as TableName).select("*");
+    const sb = context.supabase as any;
+    let q = sb.from(data.table as TableName).select("*");
     if (data.orderBy) q = q.order(data.orderBy, { ascending: data.ascending ?? true });
     const { data: rows, error } = await q;
     if (error) throw new Error(error.message);
-    return rows as Record<string, unknown>[];
+    return (rows ?? []) as Row[];
   });
 
 export const adminUpsert = createServerFn({ method: "POST" })
   .middleware([requireSupabaseAuth])
   .inputValidator((data: unknown) =>
-    z.object({ table: tableSchema, row: z.record(z.string(), z.unknown()) }).parse(data),
+    z.object({ table: tableSchema, row: z.record(z.string(), z.any()) }).parse(data),
   )
   .handler(async ({ data, context }) => {
     await assertAdmin(context);
-    const { data: row, error } = await context.supabase
+    const sb = context.supabase as any;
+    const { data: row, error } = await sb
       .from(data.table as TableName)
-      .upsert(data.row as never)
+      .upsert(data.row)
       .select()
       .maybeSingle();
     if (error) throw new Error(error.message);
-    return row as Record<string, unknown> | null;
+    return (row ?? null) as Row | null;
   });
 
 export const adminDelete = createServerFn({ method: "POST" })
@@ -83,7 +87,8 @@ export const adminDelete = createServerFn({ method: "POST" })
   )
   .handler(async ({ data, context }) => {
     await assertAdmin(context);
-    const { error } = await context.supabase
+    const sb = context.supabase as any;
+    const { error } = await sb
       .from(data.table as TableName)
       .delete()
       .eq("id", data.id);
@@ -98,9 +103,10 @@ export const adminSaveSetting = createServerFn({ method: "POST" })
   )
   .handler(async ({ data, context }) => {
     await assertAdmin(context);
-    const { error } = await context.supabase
+    const sb = context.supabase as any;
+    const { error } = await sb
       .from("site_settings")
-      .upsert({ key: data.key, value: data.value } as never, { onConflict: "key" });
+      .upsert({ key: data.key, value: data.value }, { onConflict: "key" });
     if (error) throw new Error(error.message);
     return { ok: true };
   });
