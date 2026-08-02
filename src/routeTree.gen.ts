@@ -10,33 +10,200 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as AuthenticatedRouteRouteImport } from './routes/_authenticated/route'
+import { Route as AboutRouteImport } from './routes/about'
+import { Route as AuthRouteImport } from './routes/auth'
+import { Route as BhajansRouteImport } from './routes/bhajans'
+import { Route as ContactRouteImport } from './routes/contact'
+import { Route as DonateRouteImport } from './routes/donate'
+import { Route as GalleryRouteImport } from './routes/gallery'
+import { Route as LiveRouteImport } from './routes/live'
+import { Route as AuthenticatedAdminRouteImport } from './routes/_authenticated/admin'
+import { Route as BlogIndexRouteImport } from './routes/blog/index'
+import { Route as BlogSlugRouteImport } from './routes/blog/$slug'
+import { Route as EventsIndexRouteImport } from './routes/events/index'
+import { Route as EventsSlugRouteImport } from './routes/events/$slug'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AuthenticatedRouteRoute = AuthenticatedRouteRouteImport.update({
+  id: '/_authenticated',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AboutRoute = AboutRouteImport.update({
+  id: '/about',
+  path: '/about',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AuthRoute = AuthRouteImport.update({
+  id: '/auth',
+  path: '/auth',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BhajansRoute = BhajansRouteImport.update({
+  id: '/bhajans',
+  path: '/bhajans',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ContactRoute = ContactRouteImport.update({
+  id: '/contact',
+  path: '/contact',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DonateRoute = DonateRouteImport.update({
+  id: '/donate',
+  path: '/donate',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GalleryRoute = GalleryRouteImport.update({
+  id: '/gallery',
+  path: '/gallery',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LiveRoute = LiveRouteImport.update({
+  id: '/live',
+  path: '/live',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AuthenticatedAdminRoute = AuthenticatedAdminRouteImport.update({
+  id: '/admin',
+  path: '/admin',
+  getParentRoute: () => AuthenticatedRouteRoute,
+} as any)
+const BlogIndexRoute = BlogIndexRouteImport.update({
+  id: '/blog/',
+  path: '/blog/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BlogSlugRoute = BlogSlugRouteImport.update({
+  id: '/blog/$slug',
+  path: '/blog/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EventsIndexRoute = EventsIndexRouteImport.update({
+  id: '/events/',
+  path: '/events/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EventsSlugRoute = EventsSlugRouteImport.update({
+  id: '/events/$slug',
+  path: '/events/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/about': typeof AboutRoute
+  '/auth': typeof AuthRoute
+  '/bhajans': typeof BhajansRoute
+  '/contact': typeof ContactRoute
+  '/donate': typeof DonateRoute
+  '/gallery': typeof GalleryRoute
+  '/live': typeof LiveRoute
+  '/admin': typeof AuthenticatedAdminRoute
+  '/blog/$slug': typeof BlogSlugRoute
+  '/events/$slug': typeof EventsSlugRoute
+  '/blog/': typeof BlogIndexRoute
+  '/events/': typeof EventsIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/about': typeof AboutRoute
+  '/auth': typeof AuthRoute
+  '/bhajans': typeof BhajansRoute
+  '/contact': typeof ContactRoute
+  '/donate': typeof DonateRoute
+  '/gallery': typeof GalleryRoute
+  '/live': typeof LiveRoute
+  '/admin': typeof AuthenticatedAdminRoute
+  '/blog/$slug': typeof BlogSlugRoute
+  '/events/$slug': typeof EventsSlugRoute
+  '/blog': typeof BlogIndexRoute
+  '/events': typeof EventsIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/_authenticated': typeof AuthenticatedRouteRouteWithChildren
+  '/about': typeof AboutRoute
+  '/auth': typeof AuthRoute
+  '/bhajans': typeof BhajansRoute
+  '/contact': typeof ContactRoute
+  '/donate': typeof DonateRoute
+  '/gallery': typeof GalleryRoute
+  '/live': typeof LiveRoute
+  '/_authenticated/admin': typeof AuthenticatedAdminRoute
+  '/blog/$slug': typeof BlogSlugRoute
+  '/events/$slug': typeof EventsSlugRoute
+  '/blog/': typeof BlogIndexRoute
+  '/events/': typeof EventsIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/about'
+    | '/auth'
+    | '/bhajans'
+    | '/contact'
+    | '/donate'
+    | '/gallery'
+    | '/live'
+    | '/admin'
+    | '/blog/$slug'
+    | '/events/$slug'
+    | '/blog/'
+    | '/events/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/about'
+    | '/auth'
+    | '/bhajans'
+    | '/contact'
+    | '/donate'
+    | '/gallery'
+    | '/live'
+    | '/admin'
+    | '/blog/$slug'
+    | '/events/$slug'
+    | '/blog'
+    | '/events'
+  id:
+    | '__root__'
+    | '/'
+    | '/_authenticated'
+    | '/about'
+    | '/auth'
+    | '/bhajans'
+    | '/contact'
+    | '/donate'
+    | '/gallery'
+    | '/live'
+    | '/_authenticated/admin'
+    | '/blog/$slug'
+    | '/events/$slug'
+    | '/blog/'
+    | '/events/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AuthenticatedRouteRoute: typeof AuthenticatedRouteRouteWithChildren
+  AboutRoute: typeof AboutRoute
+  AuthRoute: typeof AuthRoute
+  BhajansRoute: typeof BhajansRoute
+  ContactRoute: typeof ContactRoute
+  DonateRoute: typeof DonateRoute
+  GalleryRoute: typeof GalleryRoute
+  LiveRoute: typeof LiveRoute
+  BlogSlugRoute: typeof BlogSlugRoute
+  EventsSlugRoute: typeof EventsSlugRoute
+  BlogIndexRoute: typeof BlogIndexRoute
+  EventsIndexRoute: typeof EventsIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -48,22 +215,126 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/_authenticated': {
+      id: '/_authenticated'
+      path: ''
+      fullPath: '/'
+      preLoaderRoute: typeof AuthenticatedRouteRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/about': {
+      id: '/about'
+      path: '/about'
+      fullPath: '/about'
+      preLoaderRoute: typeof AboutRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/auth': {
+      id: '/auth'
+      path: '/auth'
+      fullPath: '/auth'
+      preLoaderRoute: typeof AuthRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/bhajans': {
+      id: '/bhajans'
+      path: '/bhajans'
+      fullPath: '/bhajans'
+      preLoaderRoute: typeof BhajansRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/contact': {
+      id: '/contact'
+      path: '/contact'
+      fullPath: '/contact'
+      preLoaderRoute: typeof ContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/donate': {
+      id: '/donate'
+      path: '/donate'
+      fullPath: '/donate'
+      preLoaderRoute: typeof DonateRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/gallery': {
+      id: '/gallery'
+      path: '/gallery'
+      fullPath: '/gallery'
+      preLoaderRoute: typeof GalleryRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/live': {
+      id: '/live'
+      path: '/live'
+      fullPath: '/live'
+      preLoaderRoute: typeof LiveRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/_authenticated/admin': {
+      id: '/_authenticated/admin'
+      path: '/admin'
+      fullPath: '/admin'
+      preLoaderRoute: typeof AuthenticatedAdminRouteImport
+      parentRoute: typeof AuthenticatedRouteRoute
+    }
+    '/blog/': {
+      id: '/blog/'
+      path: '/blog'
+      fullPath: '/blog/'
+      preLoaderRoute: typeof BlogIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/blog/$slug': {
+      id: '/blog/$slug'
+      path: '/blog/$slug'
+      fullPath: '/blog/$slug'
+      preLoaderRoute: typeof BlogSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/events/': {
+      id: '/events/'
+      path: '/events'
+      fullPath: '/events/'
+      preLoaderRoute: typeof EventsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/events/$slug': {
+      id: '/events/$slug'
+      path: '/events/$slug'
+      fullPath: '/events/$slug'
+      preLoaderRoute: typeof EventsSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
+interface AuthenticatedRouteRouteChildren {
+  AuthenticatedAdminRoute: typeof AuthenticatedAdminRoute
+}
+
+const AuthenticatedRouteRouteChildren: AuthenticatedRouteRouteChildren = {
+  AuthenticatedAdminRoute: AuthenticatedAdminRoute,
+}
+
+const AuthenticatedRouteRouteWithChildren =
+  AuthenticatedRouteRoute._addFileChildren(AuthenticatedRouteRouteChildren)
+
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AuthenticatedRouteRoute: AuthenticatedRouteRouteWithChildren,
+  AboutRoute: AboutRoute,
+  AuthRoute: AuthRoute,
+  BhajansRoute: BhajansRoute,
+  ContactRoute: ContactRoute,
+  DonateRoute: DonateRoute,
+  GalleryRoute: GalleryRoute,
+  LiveRoute: LiveRoute,
+  BlogSlugRoute: BlogSlugRoute,
+  EventsSlugRoute: EventsSlugRoute,
+  BlogIndexRoute: BlogIndexRoute,
+  EventsIndexRoute: EventsIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
-
-import type { getRouter } from './router.tsx'
-import type { startInstance } from './start.ts'
-declare module '@tanstack/react-start' {
-  interface Register {
-    ssr: true
-    router: Awaited<ReturnType<typeof getRouter>>
-    config: Awaited<ReturnType<typeof startInstance.getOptions>>
-  }
-}
