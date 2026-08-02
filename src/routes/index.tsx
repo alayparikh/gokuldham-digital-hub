@@ -62,8 +62,8 @@ function Index() {
     <>
       {/* Hero + darshan */}
       <section className="mx-auto grid max-w-7xl gap-10 px-4 py-10 lg:grid-cols-2 lg:py-14">
-        <div className="relative">
-          <div className="temple-card overflow-hidden">
+        <div className="self-start">
+          <div className="temple-card relative overflow-hidden">
             {data.slides.map((s, i) => (
               <img
                 key={s.id}
